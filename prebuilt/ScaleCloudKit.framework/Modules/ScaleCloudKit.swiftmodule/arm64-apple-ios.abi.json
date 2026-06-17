@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "ScaleCloudKit",
+    "printedName": "ScaleCloudKit",
     "children": [
       {
         "kind": "Import",
@@ -425,6 +425,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -779,6 +793,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Encodable",
@@ -1140,6 +1168,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -1310,6 +1352,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -1733,6 +1789,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -1898,6 +1968,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -2028,10 +2112,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -2310,10 +2415,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -3754,6 +3880,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -4115,6 +4255,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -4160,6 +4314,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -4345,6 +4513,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -4768,6 +4950,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -4892,6 +5088,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -5061,6 +5271,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -5274,6 +5498,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -5521,6 +5759,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -5706,6 +5958,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -5845,6 +6111,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -6058,6 +6338,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -7078,6 +7372,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -7381,6 +7689,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -7421,6 +7743,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -8479,10 +8808,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -9979,10 +10329,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -10154,6 +10525,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -10442,6 +10827,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -10606,10 +11007,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -10694,6 +11116,22 @@
         "moduleName": "ScaleCloudKit",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -11079,6 +11517,20 @@
                 "conformances": [
                   {
                     "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  },
+                  {
+                    "kind": "Conformance",
                     "name": "Decodable",
                     "printedName": "Decodable",
                     "usr": "s:Se",
@@ -11097,6 +11549,13 @@
                     "printedName": "Sendable",
                     "usr": "s:s8SendableP",
                     "mangledName": "$ss8SendableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "SendableMetatype",
+                    "printedName": "SendableMetatype",
+                    "usr": "s:s16SendableMetatypeP",
+                    "mangledName": "$ss16SendableMetatypeP"
                   }
                 ]
               },
@@ -11162,6 +11621,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -11180,6 +11653,13 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SendableMetatype",
+                "printedName": "SendableMetatype",
+                "usr": "s:s16SendableMetatypeP",
+                "mangledName": "$ss16SendableMetatypeP"
               }
             ]
           },
@@ -11245,6 +11725,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -11263,6 +11757,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -11491,6 +11992,20 @@
                 "conformances": [
                   {
                     "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  },
+                  {
+                    "kind": "Conformance",
                     "name": "Decodable",
                     "printedName": "Decodable",
                     "usr": "s:Se",
@@ -11509,6 +12024,13 @@
                     "printedName": "Sendable",
                     "usr": "s:s8SendableP",
                     "mangledName": "$ss8SendableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "SendableMetatype",
+                    "printedName": "SendableMetatype",
+                    "usr": "s:s16SendableMetatypeP",
+                    "mangledName": "$ss16SendableMetatypeP"
                   }
                 ]
               },
@@ -11574,6 +12096,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -11592,6 +12128,13 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SendableMetatype",
+                "printedName": "SendableMetatype",
+                "usr": "s:s16SendableMetatypeP",
+                "mangledName": "$ss16SendableMetatypeP"
               }
             ]
           },
@@ -11657,6 +12200,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -11675,6 +12232,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -11997,6 +12561,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -12015,6 +12593,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -12349,6 +12934,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -12367,6 +12966,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -12826,6 +13432,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -12844,6 +13464,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -14205,6 +14832,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
@@ -14223,6 +14864,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -14374,6 +15022,22 @@
         "sugared_genericSig": "<Self.Failure : Swift.Error>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -15034,6 +15698,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -20376,6 +21054,22 @@
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
             ]
           },
           {
@@ -21333,10 +22027,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -21747,6 +22462,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -22181,6 +22910,20 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -22826,6 +23569,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -22943,6 +23700,22 @@
           "Final",
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -23567,6 +24340,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -23578,6 +24365,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -23791,6 +24585,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -23831,6 +24639,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -24700,6 +25515,9 @@
             "moduleName": "ScaleCloudKit",
             "static": true,
             "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -24742,6 +25560,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -25297,6 +26129,20 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -26259,10 +27105,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -26491,6 +27358,22 @@
             "moduleName": "ScaleCloudKit",
             "declAttributes": [
               "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
             ]
           },
           {
@@ -26781,6 +27664,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Actor",
             "printedName": "Actor",
             "usr": "s:ScA",
@@ -26788,17 +27685,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "AnyActor",
-            "printedName": "AnyActor",
-            "usr": "s:12_Concurrency8AnyActorP",
-            "mangledName": "$ss8AnyActorP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -28721,6 +29618,9 @@
             "moduleName": "ScaleCloudKit",
             "static": true,
             "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -28763,6 +29663,20 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -29675,6 +30589,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -31048,6 +31976,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -31094,6 +32036,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -31669,6 +32618,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -33104,10 +34067,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -33529,6 +34513,20 @@
               "RawDocComment"
             ],
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "OptionSet",
@@ -34114,6 +35112,20 @@
             ],
             "enumRawTypeName": "Int",
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Equatable",
@@ -37846,6 +38858,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -38444,6 +39470,20 @@
               },
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -38641,6 +39681,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -39720,6 +40774,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -40093,6 +41161,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -40111,6 +41193,13 @@
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -40746,6 +41835,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -41016,6 +42119,20 @@
               "AccessControl"
             ],
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Decodable",
@@ -41342,6 +42459,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -41371,6 +42502,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -42662,6 +43807,22 @@
         "moduleName": "ScaleCloudKit",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -43154,6 +44315,22 @@
         "moduleName": "ScaleCloudKit",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -44676,10 +45853,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -44981,10 +46179,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -45179,6 +46398,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Actor",
             "printedName": "Actor",
             "usr": "s:ScA",
@@ -45186,17 +46419,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "AnyActor",
-            "printedName": "AnyActor",
-            "usr": "s:12_Concurrency8AnyActorP",
-            "mangledName": "$ss8AnyActorP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -45313,7 +46546,23 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -47399,6 +48648,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -48499,6 +49762,20 @@
             ],
             "usr": "s:s12IdentifiableP",
             "mangledName": "$ss12IdentifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -50004,6 +51281,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -54818,10 +56109,31 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Sendable",
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SendableMetatype",
+                "printedName": "SendableMetatype",
+                "usr": "s:s16SendableMetatypeP",
+                "mangledName": "$ss16SendableMetatypeP"
               }
             ]
           },
@@ -54938,10 +56250,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -55300,6 +56633,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -55701,6 +57048,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -56338,6 +57699,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -56577,6 +57952,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -57166,6 +58555,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -57700,6 +59103,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -57790,6 +59207,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -58320,6 +59751,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -58909,6 +60354,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -59190,6 +60649,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -59415,6 +60888,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -61390,7 +62877,23 @@
             "declAttributes": [
               "RawDocComment"
             ],
-            "isFromExtension": true
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
           },
           {
             "kind": "TypeDecl",
@@ -61502,7 +63005,23 @@
             "usr": "s:13ScaleCloudKitAAC16ServerInfoResultO",
             "mangledName": "$s13ScaleCloudKitAAC16ServerInfoResultO",
             "moduleName": "ScaleCloudKit",
-            "isFromExtension": true
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
           },
           {
             "kind": "Function",
@@ -83454,6 +84973,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Actor",
                 "printedName": "Actor",
                 "usr": "s:ScA",
@@ -83461,17 +84994,17 @@
               },
               {
                 "kind": "Conformance",
-                "name": "AnyActor",
-                "printedName": "AnyActor",
-                "usr": "s:12_Concurrency8AnyActorP",
-                "mangledName": "$ss8AnyActorP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Sendable",
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SendableMetatype",
+                "printedName": "SendableMetatype",
+                "usr": "s:s16SendableMetatypeP",
+                "mangledName": "$ss16SendableMetatypeP"
               }
             ]
           },
@@ -89124,6 +90657,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -89170,6 +90717,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -89998,6 +91552,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -90044,6 +91612,20 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -90605,10 +92187,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -90782,6 +92385,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -90923,6 +92540,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -90998,6 +92629,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -91174,6 +92819,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -91299,6 +92958,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -91373,6 +93046,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -91599,6 +93286,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -92618,6 +94319,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -92843,6 +94558,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -93072,6 +94801,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -93256,6 +94999,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -93409,6 +95166,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -93484,6 +95255,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -93661,6 +95446,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -94339,6 +96138,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -94591,6 +96404,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -94615,6 +96442,20 @@
         "moduleName": "SwiftyJSON",
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Collection",
@@ -95104,6 +96945,20 @@
             ],
             "usr": "s:ST",
             "mangledName": "$sST"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -95125,6 +96980,27 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -95193,6 +97069,27 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -95519,6 +97416,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -95586,6 +97497,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           },
           {
             "kind": "Conformance",
@@ -96038,6 +97956,35 @@
           },
           {
             "kind": "Conformance",
+            "name": "Transferable",
+            "printedName": "Transferable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Representation",
+                "printedName": "Representation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some CoreTransferable.TransferRepresentation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferRepresentation",
+                        "printedName": "CoreTransferable.TransferRepresentation",
+                        "usr": "s:16CoreTransferable22TransferRepresentationP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:16CoreTransferable0B0P",
+            "mangledName": "$s16CoreTransferable0B0P"
+          },
+          {
+            "kind": "Conformance",
             "name": "URLConvertible",
             "printedName": "URLConvertible",
             "usr": "s:9Alamofire14URLConvertibleP",
@@ -96073,30 +98020,9 @@
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/Assistant\/v2\/Chat.swift",
       "kind": "StringLiteral",
-      "offset": 783,
-      "length": 12,
-      "value": "\"session_id\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/Assistant\/v2\/Chat.swift",
-      "kind": "StringLiteral",
       "offset": 2047,
       "length": 9,
       "value": "\"user_id\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/Assistant\/v2\/Chat.swift",
-      "kind": "StringLiteral",
-      "offset": 2047,
-      "length": 9,
-      "value": "\"user_id\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/Assistant\/v2\/Chat.swift",
-      "kind": "StringLiteral",
-      "offset": 2761,
-      "length": 9,
-      "value": "\"session\""
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/Assistant\/v2\/Chat.swift",
@@ -96220,37 +98146,9 @@
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/DeclarativeUI\/SCKClientIntegration.swift",
       "kind": "StringLiteral",
-      "offset": 943,
-      "length": 8,
-      "value": "\"fileId\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/DeclarativeUI\/SCKClientIntegration.swift",
-      "kind": "StringLiteral",
-      "offset": 976,
-      "length": 10,
-      "value": "\"filePath\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/DeclarativeUI\/SCKClientIntegration.swift",
-      "kind": "StringLiteral",
       "offset": 1407,
       "length": 14,
       "value": "\"context-menu\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/DeclarativeUI\/SCKClientIntegration.swift",
-      "kind": "StringLiteral",
-      "offset": 1407,
-      "length": 14,
-      "value": "\"context-menu\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/DeclarativeUI\/SCKClientIntegration.swift",
-      "kind": "StringLiteral",
-      "offset": 1787,
-      "length": 18,
-      "value": "\"mimetype_filters\""
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/DeclarativeUI\/SCKClientIntegration.swift",
@@ -96328,62 +98226,6 @@
       "offset": 578,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/SCKCommon.swift",
-      "kind": "IntegerLiteral",
-      "offset": 287,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/SCKCommon.swift",
-      "kind": "IntegerLiteral",
-      "offset": 313,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/SCKCommon.swift",
-      "kind": "IntegerLiteral",
-      "offset": 350,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/SCKCommon.swift",
-      "kind": "IntegerLiteral",
-      "offset": 381,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/SCKCommon.swift",
-      "kind": "IntegerLiteral",
-      "offset": 287,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/SCKCommon.swift",
-      "kind": "IntegerLiteral",
-      "offset": 313,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/SCKCommon.swift",
-      "kind": "IntegerLiteral",
-      "offset": 350,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/SCKCommon.swift",
-      "kind": "IntegerLiteral",
-      "offset": 381,
-      "length": 1,
-      "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/SCKCommon.swift",
@@ -96638,13 +98480,6 @@
       "value": "\"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<d:propertyupdate xmlns:d=\"DAV:\" xmlns:oc=\"http:\/\/owncloud.org\/ns\" xmlns:nc=\"http:\/\/nextcloud.org\/ns\">\n    <d:set>\n        <d:prop>\n            <nc:metadata-files-live-photo>%@<\/nc:metadata-files-live-photo>\n        <\/d:prop>\n    <\/d:set>\n<\/d:propertyupdate>\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKDataFileXML.swift",
-      "kind": "StringLiteral",
-      "offset": 238,
-      "length": 14,
-      "value": "\"ScaleCloudKit.SCKDataFileXML\""
-    },
-    {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/SCKDav.swift",
       "kind": "StringLiteral",
       "offset": 411,
@@ -96668,13 +98503,6 @@
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/EditorDetails\/SCKEditorDetailsResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1106,
-      "length": 4,
-      "value": "\"id\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/EditorDetails\/SCKEditorDetailsResponse.swift",
-      "kind": "StringLiteral",
       "offset": 1521,
       "length": 4,
       "value": "\"id\""
@@ -96685,34 +98513,6 @@
       "offset": 1628,
       "length": 11,
       "value": "\"extension\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/EditorDetails\/SCKEditorDetailsResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 1521,
-      "length": 4,
-      "value": "\"id\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/EditorDetails\/SCKEditorDetailsResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 1628,
-      "length": 11,
-      "value": "\"extension\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/EditorDetails\/SCKEditorDetailsResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 1883,
-      "length": 11,
-      "value": "\"extension\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/EditorDetails\/SCKEditorDetailsResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 1921,
-      "length": 4,
-      "value": "\"id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/EditorDetails\/SCKEditorDetailsResponse.swift",
@@ -97627,62 +99427,6 @@
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/TypeIdentifiers\/SCKFilePropertyResolver.swift",
       "kind": "StringLiteral",
-      "offset": 454,
-      "length": 7,
-      "value": "\"audio\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/TypeIdentifiers\/SCKFilePropertyResolver.swift",
-      "kind": "StringLiteral",
-      "offset": 482,
-      "length": 10,
-      "value": "\"compress\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/TypeIdentifiers\/SCKFilePropertyResolver.swift",
-      "kind": "StringLiteral",
-      "offset": 514,
-      "length": 11,
-      "value": "\"directory\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/TypeIdentifiers\/SCKFilePropertyResolver.swift",
-      "kind": "StringLiteral",
-      "offset": 546,
-      "length": 10,
-      "value": "\"document\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/TypeIdentifiers\/SCKFilePropertyResolver.swift",
-      "kind": "StringLiteral",
-      "offset": 574,
-      "length": 7,
-      "value": "\"image\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/TypeIdentifiers\/SCKFilePropertyResolver.swift",
-      "kind": "StringLiteral",
-      "offset": 600,
-      "length": 8,
-      "value": "\"unknow\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/TypeIdentifiers\/SCKFilePropertyResolver.swift",
-      "kind": "StringLiteral",
-      "offset": 624,
-      "length": 5,
-      "value": "\"url\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/TypeIdentifiers\/SCKFilePropertyResolver.swift",
-      "kind": "StringLiteral",
-      "offset": 647,
-      "length": 7,
-      "value": "\"video\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/TypeIdentifiers\/SCKFilePropertyResolver.swift",
-      "kind": "StringLiteral",
       "offset": 713,
       "length": 7,
       "value": "\"audio\""
@@ -97777,146 +99521,6 @@
       "offset": 1036,
       "length": 5,
       "value": "\"xls\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/TypeIdentifiers\/SCKFilePropertyResolver.swift",
-      "kind": "StringLiteral",
-      "offset": 713,
-      "length": 7,
-      "value": "\"audio\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/TypeIdentifiers\/SCKFilePropertyResolver.swift",
-      "kind": "StringLiteral",
-      "offset": 737,
-      "length": 6,
-      "value": "\"code\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/TypeIdentifiers\/SCKFilePropertyResolver.swift",
-      "kind": "StringLiteral",
-      "offset": 764,
-      "length": 10,
-      "value": "\"compress\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/TypeIdentifiers\/SCKFilePropertyResolver.swift",
-      "kind": "StringLiteral",
-      "offset": 796,
-      "length": 11,
-      "value": "\"directory\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/TypeIdentifiers\/SCKFilePropertyResolver.swift",
-      "kind": "StringLiteral",
-      "offset": 828,
-      "length": 10,
-      "value": "\"document\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/TypeIdentifiers\/SCKFilePropertyResolver.swift",
-      "kind": "StringLiteral",
-      "offset": 855,
-      "length": 6,
-      "value": "\"draw\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/TypeIdentifiers\/SCKFilePropertyResolver.swift",
-      "kind": "StringLiteral",
-      "offset": 879,
-      "length": 7,
-      "value": "\"image\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/TypeIdentifiers\/SCKFilePropertyResolver.swift",
-      "kind": "StringLiteral",
-      "offset": 904,
-      "length": 7,
-      "value": "\"video\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/TypeIdentifiers\/SCKFilePropertyResolver.swift",
-      "kind": "StringLiteral",
-      "offset": 927,
-      "length": 5,
-      "value": "\"pdf\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/TypeIdentifiers\/SCKFilePropertyResolver.swift",
-      "kind": "StringLiteral",
-      "offset": 948,
-      "length": 5,
-      "value": "\"ppt\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/TypeIdentifiers\/SCKFilePropertyResolver.swift",
-      "kind": "StringLiteral",
-      "offset": 969,
-      "length": 5,
-      "value": "\"txt\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/TypeIdentifiers\/SCKFilePropertyResolver.swift",
-      "kind": "StringLiteral",
-      "offset": 993,
-      "length": 6,
-      "value": "\"file\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/TypeIdentifiers\/SCKFilePropertyResolver.swift",
-      "kind": "StringLiteral",
-      "offset": 1015,
-      "length": 5,
-      "value": "\"url\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/TypeIdentifiers\/SCKFilePropertyResolver.swift",
-      "kind": "StringLiteral",
-      "offset": 1036,
-      "length": 5,
-      "value": "\"xls\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/SCKLockType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 515,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/SCKLockType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 680,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/SCKLockType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1417,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/SCKLockType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 515,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/SCKLockType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 680,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/SCKLockType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1417,
-      "length": 1,
-      "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/SCKLockType.swift",
@@ -98043,132 +99647,6 @@
       "offset": 629,
       "length": 1,
       "value": "3"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 361,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 470,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 550,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 629,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 361,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 470,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 550,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 629,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1335,
-      "length": 9,
-      "value": "\"[ERROR]\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1364,
-      "length": 11,
-      "value": "\"[SUCCESS]\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1395,
-      "length": 11,
-      "value": "\"[WARNING]\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1423,
-      "length": 8,
-      "value": "\"[INFO]\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1449,
-      "length": 9,
-      "value": "\"[DEBUG]\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1478,
-      "length": 11,
-      "value": "\"[NETWORK]\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1507,
-      "length": 9,
-      "value": "\"[START]\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1533,
-      "length": 8,
-      "value": "\"[STOP]\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1557,
-      "length": 7,
-      "value": "\"[END]\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1583,
-      "length": 10,
-      "value": "\"[CANCEL]\""
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
@@ -98738,342 +100216,6 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 346,
-      "length": 19,
-      "value": "\"<d:displayname \/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 582,
-      "length": 30,
-      "value": "\"<nc:share-download-limits \/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 641,
-      "length": 23,
-      "value": "\"<d:getlastmodified \/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 684,
-      "length": 15,
-      "value": "\"<d:getetag \/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 726,
-      "length": 22,
-      "value": "\"<d:getcontenttype \/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 773,
-      "length": 20,
-      "value": "\"<d:resourcetype \/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 825,
-      "length": 29,
-      "value": "\"<d:quota-available-bytes \/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 881,
-      "length": 24,
-      "value": "\"<d:quota-used-bytes \/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 934,
-      "length": 24,
-      "value": "\"<d:getcontentlength \/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 1003,
-      "length": 49,
-      "value": "\"<permissions xmlns=\"http:\/\/owncloud.org\/ns\"\/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 1067,
-      "length": 40,
-      "value": "\"<id xmlns=\"http:\/\/owncloud.org\/ns\"\/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 1126,
-      "length": 44,
-      "value": "\"<fileid xmlns=\"http:\/\/owncloud.org\/ns\"\/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 1187,
-      "length": 42,
-      "value": "\"<size xmlns=\"http:\/\/owncloud.org\/ns\"\/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 1250,
-      "length": 46,
-      "value": "\"<favorite xmlns=\"http:\/\/owncloud.org\/ns\"\/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 1319,
-      "length": 49,
-      "value": "\"<share-types xmlns=\"http:\/\/owncloud.org\/ns\"\/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 1388,
-      "length": 46,
-      "value": "\"<owner-id xmlns=\"http:\/\/owncloud.org\/ns\"\/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 1463,
-      "length": 56,
-      "value": "\"<owner-display-name xmlns=\"http:\/\/owncloud.org\/ns\"\/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 1546,
-      "length": 53,
-      "value": "\"<comments-unread xmlns=\"http:\/\/owncloud.org\/ns\"\/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 1621,
-      "length": 47,
-      "value": "\"<checksums xmlns=\"http:\/\/owncloud.org\/ns\"\/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 1692,
-      "length": 49,
-      "value": "\"<downloadURL xmlns=\"http:\/\/owncloud.org\/ns\"\/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 1769,
-      "length": 54,
-      "value": "\"<data-fingerprint xmlns=\"http:\/\/owncloud.org\/ns\"\/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 1870,
-      "length": 52,
-      "value": "\"<creation_time xmlns=\"http:\/\/nextcloud.org\/ns\"\/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 1945,
-      "length": 50,
-      "value": "\"<upload_time xmlns=\"http:\/\/nextcloud.org\/ns\"\/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 2019,
-      "length": 51,
-      "value": "\"<is-encrypted xmlns=\"http:\/\/nextcloud.org\/ns\"\/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 2093,
-      "length": 50,
-      "value": "\"<has-preview xmlns=\"http:\/\/nextcloud.org\/ns\"\/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 2165,
-      "length": 49,
-      "value": "\"<mount-type xmlns=\"http:\/\/nextcloud.org\/ns\"\/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 2240,
-      "length": 53,
-      "value": "\"<rich-workspace xmlns=\"http:\/\/nextcloud.org\/ns\"\/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 2310,
-      "length": 43,
-      "value": "\"<note xmlns=\"http:\/\/nextcloud.org\/ns\"\/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 2370,
-      "length": 43,
-      "value": "\"<lock xmlns=\"http:\/\/nextcloud.org\/ns\"\/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 2435,
-      "length": 49,
-      "value": "\"<lock-owner xmlns=\"http:\/\/nextcloud.org\/ns\"\/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 2512,
-      "length": 56,
-      "value": "\"<lock-owner-editor xmlns=\"http:\/\/nextcloud.org\/ns\"\/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 2601,
-      "length": 61,
-      "value": "\"<lock-owner-displayname xmlns=\"http:\/\/nextcloud.org\/ns\"\/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 2688,
-      "length": 54,
-      "value": "\"<lock-owner-type xmlns=\"http:\/\/nextcloud.org\/ns\"\/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 2763,
-      "length": 48,
-      "value": "\"<lock-time xmlns=\"http:\/\/nextcloud.org\/ns\"\/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 2835,
-      "length": 51,
-      "value": "\"<lock-timeout xmlns=\"http:\/\/nextcloud.org\/ns\"\/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 2909,
-      "length": 50,
-      "value": "\"<system-tags xmlns=\"http:\/\/nextcloud.org\/ns\"\/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 2988,
-      "length": 57,
-      "value": "\"<file-metadata-size xmlns=\"http:\/\/nextcloud.org\/ns\"\/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 3073,
-      "length": 56,
-      "value": "\"<file-metadata-gps xmlns=\"http:\/\/nextcloud.org\/ns\"\/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 3160,
-      "length": 59,
-      "value": "\"<metadata-photos-exif xmlns=\"http:\/\/nextcloud.org\/ns\"\/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 3249,
-      "length": 58,
-      "value": "\"<metadata-photos-gps xmlns=\"http:\/\/nextcloud.org\/ns\"\/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 3350,
-      "length": 73,
-      "value": "\"<metadata-photos-original_date_time xmlns=\"http:\/\/nextcloud.org\/ns\"\/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 3454,
-      "length": 60,
-      "value": "\"<metadata-photos-place xmlns=\"http:\/\/nextcloud.org\/ns\"\/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 3545,
-      "length": 59,
-      "value": "\"<metadata-photos-size xmlns=\"http:\/\/nextcloud.org\/ns\"\/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 3639,
-      "length": 64,
-      "value": "\"<metadata-files-live-photo xmlns=\"http:\/\/nextcloud.org\/ns\"\/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 3722,
-      "length": 45,
-      "value": "\"<hidden xmlns=\"http:\/\/nextcloud.org\/ns\"\/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 3849,
-      "length": 74,
-      "value": "\"<share-permissions xmlns=\"http:\/\/open-collaboration-services.org\/ns\"\/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKProperties.swift",
-      "kind": "StringLiteral",
-      "offset": 3989,
-      "length": 62,
-      "value": "\"<share-permissions xmlns=\"http:\/\/open-cloud-mesh.org\/ns\"\/>\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKRecommendedFiles.swift",
-      "kind": "StringLiteral",
-      "offset": 191,
-      "length": 17,
-      "value": "\"ScaleCloudKit.SCKRecommendation\""
-    },
-    {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/SCKRequestOptions.swift",
       "kind": "IntegerLiteral",
       "offset": 1232,
@@ -99100,13 +100242,6 @@
       "offset": 1478,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/SCKRequestOptions.swift",
-      "kind": "StringLiteral",
-      "offset": 219,
-      "length": 17,
-      "value": "\"ScaleCloudKit.SCKRequestOptions\""
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKRichdocumentsTemplate.swift",
@@ -99218,146 +100353,6 @@
       "kind": "IntegerLiteral",
       "offset": 1956,
       "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKShare.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2068,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKShare.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2181,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKShare.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2274,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKShare.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2350,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKShare.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2438,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKShare.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2527,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKShare.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2606,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKShare.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2700,
-      "length": 1,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKShare.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2816,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKShare.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1956,
-      "length": 1,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKShare.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2068,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKShare.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2181,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKShare.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2274,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKShare.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2350,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKShare.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2438,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKShare.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2527,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKShare.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2606,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKShare.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2700,
-      "length": 1,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKShare.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2816,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKShare.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1956,
-      "length": 1,
       "value": "-1"
     },
     {
@@ -99653,13 +100648,6 @@
       "offset": 4072,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKShareAccounts.swift",
-      "kind": "StringLiteral",
-      "offset": 529,
-      "length": 12,
-      "value": "\"ScaleCloudKit.DataAccounts\""
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Models\/SCKShareAccounts.swift",
@@ -100364,55 +101352,6 @@
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "StringLiteral",
-      "offset": 6913,
-      "length": 15,
-      "value": "\"downloadlimit\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
-      "kind": "StringLiteral",
-      "offset": 6977,
-      "length": 15,
-      "value": "\"files_sharing\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
-      "kind": "StringLiteral",
-      "offset": 7088,
-      "length": 23,
-      "value": "\"end-to-end-encryption\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
-      "kind": "StringLiteral",
-      "offset": 7237,
-      "length": 13,
-      "value": "\"user_status\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
-      "kind": "StringLiteral",
-      "offset": 7356,
-      "length": 16,
-      "value": "\"security_guard\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
-      "kind": "StringLiteral",
-      "offset": 7515,
-      "length": 18,
-      "value": "\"terms_of_service\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
-      "kind": "StringLiteral",
-      "offset": 7587,
-      "length": 20,
-      "value": "\"client_integration\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
-      "kind": "StringLiteral",
       "offset": 8245,
       "length": 13,
       "value": "\"api_enabled\""
@@ -100437,76 +101376,6 @@
       "offset": 8502,
       "length": 8,
       "value": "\"public\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
-      "kind": "StringLiteral",
-      "offset": 8245,
-      "length": 13,
-      "value": "\"api_enabled\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
-      "kind": "StringLiteral",
-      "offset": 8311,
-      "length": 15,
-      "value": "\"group_sharing\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
-      "kind": "StringLiteral",
-      "offset": 8432,
-      "length": 21,
-      "value": "\"default_permissions\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
-      "kind": "StringLiteral",
-      "offset": 8502,
-      "length": 8,
-      "value": "\"public\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
-      "kind": "StringLiteral",
-      "offset": 9302,
-      "length": 11,
-      "value": "\"send_mail\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
-      "kind": "StringLiteral",
-      "offset": 9373,
-      "length": 19,
-      "value": "\"upload_files_drop\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
-      "kind": "StringLiteral",
-      "offset": 9450,
-      "length": 16,
-      "value": "\"multiple_links\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
-      "kind": "StringLiteral",
-      "offset": 9521,
-      "length": 13,
-      "value": "\"expire_date\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
-      "kind": "StringLiteral",
-      "offset": 9597,
-      "length": 22,
-      "value": "\"expire_date_internal\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
-      "kind": "StringLiteral",
-      "offset": 9680,
-      "length": 20,
-      "value": "\"expire_date_remote\""
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
@@ -100595,62 +101464,6 @@
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "StringLiteral",
-      "offset": 11146,
-      "length": 15,
-      "value": "\"color-element\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
-      "kind": "StringLiteral",
-      "offset": 11211,
-      "length": 12,
-      "value": "\"color-text\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
-      "kind": "StringLiteral",
-      "offset": 11282,
-      "length": 22,
-      "value": "\"color-element-bright\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
-      "kind": "StringLiteral",
-      "offset": 11362,
-      "length": 20,
-      "value": "\"background-default\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
-      "kind": "StringLiteral",
-      "offset": 11438,
-      "length": 18,
-      "value": "\"background-plain\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
-      "kind": "StringLiteral",
-      "offset": 11513,
-      "length": 20,
-      "value": "\"color-element-dark\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
-      "kind": "StringLiteral",
-      "offset": 12055,
-      "length": 13,
-      "value": "\"api-version\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
-      "kind": "StringLiteral",
-      "offset": 12118,
-      "length": 12,
-      "value": "\"keys-exist\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
-      "kind": "StringLiteral",
       "offset": 12055,
       "length": 13,
       "value": "\"api-version\""
@@ -100672,30 +101485,9 @@
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "StringLiteral",
-      "offset": 12516,
-      "length": 16,
-      "value": "\"direct_editing\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
-      "kind": "StringLiteral",
       "offset": 12947,
       "length": 15,
       "value": "\"ocs-endpoints\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
-      "kind": "StringLiteral",
-      "offset": 12947,
-      "length": 15,
-      "value": "\"ocs-endpoints\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
-      "kind": "StringLiteral",
-      "offset": 13333,
-      "length": 11,
-      "value": "\"term_uuid\""
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
@@ -100759,76 +101551,6 @@
       "offset": 15418,
       "length": 31,
       "value": "\"forbidden_filename_extensions\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
-      "kind": "StringLiteral",
-      "offset": 14690,
-      "length": 23,
-      "value": "\"api-feature-lock-type\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
-      "kind": "StringLiteral",
-      "offset": 14878,
-      "length": 18,
-      "value": "\"version_deletion\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
-      "kind": "StringLiteral",
-      "offset": 14952,
-      "length": 18,
-      "value": "\"version_labeling\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
-      "kind": "StringLiteral",
-      "offset": 15044,
-      "length": 30,
-      "value": "\"windows_compatible_filenames\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
-      "kind": "StringLiteral",
-      "offset": 15133,
-      "length": 21,
-      "value": "\"forbidden_filenames\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
-      "kind": "StringLiteral",
-      "offset": 15221,
-      "length": 30,
-      "value": "\"forbidden_filename_basenames\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
-      "kind": "StringLiteral",
-      "offset": 15319,
-      "length": 31,
-      "value": "\"forbidden_filename_characters\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
-      "kind": "StringLiteral",
-      "offset": 15418,
-      "length": 31,
-      "value": "\"forbidden_filename_extensions\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
-      "kind": "StringLiteral",
-      "offset": 16180,
-      "length": 16,
-      "value": "\"supports_emoji\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
-      "kind": "StringLiteral",
-      "offset": 16249,
-      "length": 15,
-      "value": "\"supports_busy\""
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
@@ -101496,55 +102218,6 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Dashboard.swift",
-      "kind": "StringLiteral",
-      "offset": 10005,
-      "length": 23,
-      "value": "\"ScaleCloudKit.NCCDashboardApplication\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Dashboard.swift",
-      "kind": "StringLiteral",
-      "offset": 10645,
-      "length": 16,
-      "value": "\"ScaleCloudKit.NCCDashboardItem\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Dashboard.swift",
-      "kind": "StringLiteral",
-      "offset": 11287,
-      "length": 18,
-      "value": "\"ScaleCloudKit.NCCDashboardWidget\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Dashboard.swift",
-      "kind": "StringLiteral",
-      "offset": 12460,
-      "length": 24,
-      "value": "\"ScaleCloudKit.NCCDashboardWidgetButton\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Groupfolders.swift",
-      "kind": "StringLiteral",
-      "offset": 4592,
-      "length": 15,
-      "value": "\"ScaleCloudKit.SCKGroupfolders\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Hovercard.swift",
-      "kind": "StringLiteral",
-      "offset": 4970,
-      "length": 6,
-      "value": "\"ScaleCloudKit.Action\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Hovercard.swift",
-      "kind": "StringLiteral",
-      "offset": 4472,
-      "length": 12,
-      "value": "\"ScaleCloudKit.SCKHovercard\""
-    },
-    {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Search.swift",
       "kind": "IntegerLiteral",
       "offset": 1052,
@@ -101564,27 +102237,6 @@
       "offset": 4016,
       "length": 2,
       "value": "60"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Search.swift",
-      "kind": "StringLiteral",
-      "offset": 6284,
-      "length": 15,
-      "value": "\"ScaleCloudKit.SCKSearchResult\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Search.swift",
-      "kind": "StringLiteral",
-      "offset": 6895,
-      "length": 14,
-      "value": "\"ScaleCloudKit.SCKSearchEntry\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Search.swift",
-      "kind": "StringLiteral",
-      "offset": 8214,
-      "length": 17,
-      "value": "\"ScaleCloudKit.SCKSearchProvider\""
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Share.swift",
@@ -101627,13 +102279,6 @@
       "offset": 2199,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Share.swift",
-      "kind": "StringLiteral",
-      "offset": 203,
-      "length": 17,
-      "value": "\"ScaleCloudKit.SCKShareParameter\""
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Share.swift",
@@ -101935,20 +102580,6 @@
       "offset": 11097,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKitBackground.swift",
-      "kind": "StringLiteral",
-      "offset": 174,
-      "length": 13,
-      "value": "\"ScaleCloudKit.SCKBackground\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKitSessionDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 307,
-      "length": 27,
-      "value": "\"ScaleCloudKit.NextcloudKitSessionDelegate\""
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Utils\/SynchronizedSCKSessionArray.swift",
