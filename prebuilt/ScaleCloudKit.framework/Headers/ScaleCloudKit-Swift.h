@@ -352,6 +352,20 @@ SWIFT_CLASS("_TtC13ScaleCloudKit13SCKBackground")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+SWIFT_CLASS("_TtC13ScaleCloudKit9SCKClient")
+@interface SCKClient : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+/// Starts (or reuses) the shared Tailscale proxy and returns a proxy dictionary
+/// suitable for use as <code>NSURLSessionConfiguration.connectionProxyDictionary</code>.
+/// Forwards to <code>SCKSession.applyProxySettings()</code> so the shared lifecycle state
+/// (port number, cleanup timer) is kept in one place.
++ (NSDictionary * _Nullable)applyProxySettings SWIFT_WARN_UNUSED_RESULT;
+/// Registers a <code>URLSession</code> with the shared lifecycle tracker so the proxy
+/// is kept alive as long as at least one live session exists.
+/// Forwards to <code>SCKSession.registerSession(_:)</code>.
++ (void)registerSession:(NSURLSession * _Nonnull)session;
+@end
+
 SWIFT_CLASS("_TtC13ScaleCloudKit11SCKComments")
 @interface SCKComments : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -462,20 +476,6 @@ SWIFT_CLASS("_TtC13ScaleCloudKit14SCKUserProfile")
 SWIFT_CLASS("_TtC13ScaleCloudKit13SCKUserStatus")
 @interface SCKUserStatus : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-SWIFT_CLASS("_TtC13ScaleCloudKit13ScaleCloudKit")
-@interface ScaleCloudKit : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-/// Starts (or reuses) the shared Tailscale proxy and returns a proxy dictionary
-/// suitable for use as <code>NSURLSessionConfiguration.connectionProxyDictionary</code>.
-/// Forwards to <code>SCKSession.applyProxySettings()</code> so the shared lifecycle state
-/// (port number, cleanup timer) is kept in one place.
-+ (NSDictionary * _Nullable)applyProxySettings SWIFT_WARN_UNUSED_RESULT;
-/// Registers a <code>URLSession</code> with the shared lifecycle tracker so the proxy
-/// is kept alive as long as at least one live session exists.
-/// Forwards to <code>SCKSession.registerSession(_:)</code>.
-+ (void)registerSession:(NSURLSession * _Nonnull)session;
 @end
 
 #endif

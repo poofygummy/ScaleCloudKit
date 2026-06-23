@@ -1169,7 +1169,7 @@ public struct SCKTypeIdentifierCache : Swift.Sendable {
   @objc override dynamic public init()
   @objc deinit
 }
-extension ScaleCloudKit.ScaleCloudKit {
+extension ScaleCloudKit.SCKClient {
   #if compiler(>=5.3) && $NonescapableTypes
   public func checkServer(serverUrl: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }, completion: @escaping (_ responseData: Alamofire.AFDataResponse<Foundation.Data>?, _ error: ScaleCloudKit.SCKError) -> Swift.Void)
   #endif
@@ -1203,14 +1203,14 @@ extension ScaleCloudKit.ScaleCloudKit {
     public let data: Foundation.Data?
   }
   public enum ServerInfoResult {
-    case success(ScaleCloudKit.ScaleCloudKit.ServerInfo)
+    case success(ScaleCloudKit.SCKClient.ServerInfo)
     case failure(ScaleCloudKit.SCKError)
   }
   #if compiler(>=5.3) && $NonescapableTypes
-  public func getServerStatus(serverUrl: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }, completion: @escaping (_ responseData: Alamofire.AFDataResponse<Foundation.Data>?, ScaleCloudKit.ScaleCloudKit.ServerInfoResult) -> Swift.Void)
+  public func getServerStatus(serverUrl: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }, completion: @escaping (_ responseData: Alamofire.AFDataResponse<Foundation.Data>?, ScaleCloudKit.SCKClient.ServerInfoResult) -> Swift.Void)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  public func getServerStatusAsync(serverUrl: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }) async -> (responseData: Alamofire.AFDataResponse<Foundation.Data>?, result: ScaleCloudKit.ScaleCloudKit.ServerInfoResult)
+  public func getServerStatusAsync(serverUrl: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }) async -> (responseData: Alamofire.AFDataResponse<Foundation.Data>?, result: ScaleCloudKit.SCKClient.ServerInfoResult)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   public func downloadPreview(url: Foundation.URL, account: Swift.String, etag: Swift.String? = nil, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }, completion: @escaping (_ account: Swift.String, _ responseData: Alamofire.AFDataResponse<Foundation.Data>?, _ error: ScaleCloudKit.SCKError) -> Swift.Void)
@@ -1297,7 +1297,7 @@ extension ScaleCloudKit.ScaleCloudKit {
   public func sendClientDiagnosticsRemoteOperationAsync(data: Foundation.Data, account: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }) async -> (account: Swift.String, responseData: Alamofire.AFDataResponse<Foundation.Data>?, error: ScaleCloudKit.SCKError)
   #endif
 }
-extension ScaleCloudKit.ScaleCloudKit {
+extension ScaleCloudKit.SCKClient {
   #if compiler(>=5.3) && $NonescapableTypes
   public func textProcessingGetTypes(account: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }, completion: @escaping (_ account: Swift.String, _ types: [ScaleCloudKit.SCKTextProcessingTaskType]?, _ responseData: Alamofire.AFDataResponse<Foundation.Data>?, _ error: ScaleCloudKit.SCKError) -> Swift.Void)
   #endif
@@ -1329,7 +1329,7 @@ extension ScaleCloudKit.ScaleCloudKit {
   public func textProcessingTaskListAsync(appId: Swift.String, account: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }) async -> (account: Swift.String, task: [ScaleCloudKit.SCKTextProcessingTask]?, responseData: Alamofire.AFDataResponse<Foundation.Data>?, error: ScaleCloudKit.SCKError)
   #endif
 }
-extension ScaleCloudKit.ScaleCloudKit {
+extension ScaleCloudKit.SCKClient {
   #if compiler(>=5.3) && $NonescapableTypes
   public func textProcessingGetTypesV2(account: Swift.String, supportedTaskType: Swift.String = "Text", options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }) async -> (account: Swift.String, types: [ScaleCloudKit.TaskTypeData]?, responseData: Alamofire.AFDataResponse<Foundation.Data>?, error: ScaleCloudKit.SCKError)
   #endif
@@ -1364,7 +1364,7 @@ extension ScaleCloudKit.ScaleCloudKit {
   public func checkAssistantChatSession(sessionId: Swift.Int, account: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }) async -> (account: Swift.String, session: ScaleCloudKit.AssistantSession?, responseData: Alamofire.AFDataResponse<Foundation.Data>?, error: ScaleCloudKit.SCKError)
   #endif
 }
-extension ScaleCloudKit.ScaleCloudKit {
+extension ScaleCloudKit.SCKClient {
   #if compiler(>=5.3) && $NonescapableTypes
   public func getCapabilities(account: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }, completion: @escaping (_ account: Swift.String, _ capabilities: ScaleCloudKit.SCKCapabilities.Capabilities?, _ responseData: Alamofire.AFDataResponse<Foundation.Data>?, _ error: ScaleCloudKit.SCKError) -> Swift.Void)
   #endif
@@ -1441,12 +1441,12 @@ extension ScaleCloudKit.ScaleCloudKit {
   final public func removeCapabilities(for account: Swift.String) async
   @objc deinit
 }
-extension ScaleCloudKit.ScaleCloudKit {
+extension ScaleCloudKit.SCKClient {
   #if compiler(>=5.3) && $NonescapableTypes
   public func sendRequestAsync(account: Swift.String, fileId: Swift.String, filePath: Swift.String, url: Swift.String, method: Swift.String, params: [Swift.String : Swift.String]? = nil, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }) async -> (account: Swift.String, uiResponse: ScaleCloudKit.SCKClientIntegrationUIResponse?, error: ScaleCloudKit.SCKError)
   #endif
 }
-extension ScaleCloudKit.ScaleCloudKit {
+extension ScaleCloudKit.SCKClient {
   #if compiler(>=5.3) && $NonescapableTypes
   public func getComments(fileId: Swift.String, account: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }, completion: @escaping (_ account: Swift.String, _ items: [ScaleCloudKit.SCKComments]?, _ responseData: Alamofire.AFDataResponse<Foundation.Data>?, _ error: ScaleCloudKit.SCKError) -> Swift.Void)
   #endif
@@ -1478,7 +1478,7 @@ extension ScaleCloudKit.ScaleCloudKit {
   public func markAsReadCommentsAsync(fileId: Swift.String, account: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }) async -> (account: Swift.String, responseData: Alamofire.AFDataResponse<Foundation.Data>?, error: ScaleCloudKit.SCKError)
   #endif
 }
-extension ScaleCloudKit.ScaleCloudKit {
+extension ScaleCloudKit.SCKClient {
   #if compiler(>=5.3) && $NonescapableTypes
   public func getDashboardWidget(account: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), request: @escaping (Alamofire.DataRequest?) -> Swift.Void = { _ in }, taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }, completion: @escaping (_ account: Swift.String, _ dashboardWidgets: [ScaleCloudKit.NCCDashboardWidget]?, _ responseData: Alamofire.AFDataResponse<Foundation.Data>?, _ error: ScaleCloudKit.SCKError) -> Swift.Void)
   #endif
@@ -1517,7 +1517,7 @@ extension ScaleCloudKit.ScaleCloudKit {
   final public let type: Swift.String, text: Swift.String, link: Swift.String
   @objc deinit
 }
-extension ScaleCloudKit.ScaleCloudKit {
+extension ScaleCloudKit.SCKClient {
   #if compiler(>=5.3) && $NonescapableTypes
   public func download(serverUrlFileName: Any, fileNameLocalPath: Swift.String, account: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), requestHandler: @escaping (_ request: Alamofire.DownloadRequest) -> Swift.Void = { _ in }, taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }, progressHandler: @escaping (_ progress: Foundation.Progress) -> Swift.Void = { _ in }, completionHandler: @escaping (_ account: Swift.String, _ etag: Swift.String?, _ date: Foundation.Date?, _ lenght: Swift.Int64, _ headers: [Swift.AnyHashable : any Swift.Sendable]?, _ afError: Alamofire.AFError?, _ nKError: ScaleCloudKit.SCKError) -> Swift.Void)
   #endif
@@ -1525,7 +1525,7 @@ extension ScaleCloudKit.ScaleCloudKit {
   public func downloadAsync(serverUrlFileName: Any, fileNameLocalPath: Swift.String, account: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), requestHandler: @escaping (_ request: Alamofire.DownloadRequest) -> Swift.Void = { _ in }, taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }, progressHandler: @escaping (_ progress: Foundation.Progress) -> Swift.Void = { _ in }) async -> (account: Swift.String, etag: Swift.String?, date: Foundation.Date?, length: Swift.Int64, headers: [Swift.AnyHashable : any Swift.Sendable]?, afError: Alamofire.AFError?, nkError: ScaleCloudKit.SCKError)
   #endif
 }
-extension ScaleCloudKit.ScaleCloudKit {
+extension ScaleCloudKit.SCKClient {
   #if compiler(>=5.3) && $NonescapableTypes
   public func markE2EEFolder(fileId: Swift.String, delete: Swift.Bool, account: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }, completion: @escaping (_ account: Swift.String, _ responseData: Alamofire.AFDataResponse<Foundation.Data>?, _ error: ScaleCloudKit.SCKError) -> Swift.Void)
   #endif
@@ -1593,7 +1593,7 @@ extension ScaleCloudKit.ScaleCloudKit {
   public func deleteE2EEPrivateKeyAsync(account: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }) async -> (account: Swift.String, responseData: Alamofire.AFDataResponse<Foundation.Data>?, error: ScaleCloudKit.SCKError)
   #endif
 }
-extension ScaleCloudKit.ScaleCloudKit {
+extension ScaleCloudKit.SCKClient {
   #if compiler(>=5.3) && $NonescapableTypes
   public func lockUnlockFile(serverUrlFileName: Swift.String, type: ScaleCloudKit.SCKLockType? = nil, shouldLock: Swift.Bool, account: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }, completion: @escaping (_ account: Swift.String, _ responseData: Alamofire.AFDataResponse<Foundation.Data>?, _ error: ScaleCloudKit.SCKError) -> Swift.Void)
   #endif
@@ -1601,7 +1601,7 @@ extension ScaleCloudKit.ScaleCloudKit {
   public func lockUnlockFile(serverUrlFileName: Swift.String, type: ScaleCloudKit.SCKLockType? = nil, shouldLock: Swift.Bool, account: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }) async throws -> ScaleCloudKit.SCKLock?
   #endif
 }
-extension ScaleCloudKit.ScaleCloudKit {
+extension ScaleCloudKit.SCKClient {
   #if compiler(>=5.3) && $NonescapableTypes
   public func getGroupfolders(account: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }, completion: @escaping (_ account: Swift.String, _ results: [ScaleCloudKit.SCKGroupfolders]?, _ responseData: Alamofire.AFDataResponse<Foundation.Data>?, _ error: ScaleCloudKit.SCKError) -> Swift.Void)
   #endif
@@ -1619,7 +1619,7 @@ extension ScaleCloudKit.ScaleCloudKit {
   final public let groups: [Swift.String : Any]?
   @objc deinit
 }
-extension ScaleCloudKit.ScaleCloudKit {
+extension ScaleCloudKit.SCKClient {
   #if compiler(>=5.3) && $NonescapableTypes
   public func getHovercard(for userId: Swift.String, account: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }, completion: @escaping (_ account: Swift.String, _ result: ScaleCloudKit.SCKHovercard?, _ responseData: Alamofire.AFDataResponse<Foundation.Data>?, _ error: ScaleCloudKit.SCKError) -> Swift.Void)
   #endif
@@ -1644,7 +1644,7 @@ extension ScaleCloudKit.ScaleCloudKit {
   }
   @objc deinit
 }
-extension ScaleCloudKit.ScaleCloudKit {
+extension ScaleCloudKit.SCKClient {
   #if compiler(>=5.3) && $NonescapableTypes
   public func setLivephoto(serverUrlfileNamePath: Swift.String, livePhotoFile: Swift.String, account: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }, completion: @escaping (_ account: Swift.String, _ responseData: Alamofire.AFDataResponse<Foundation.Data>?, _ error: ScaleCloudKit.SCKError) -> Swift.Void)
   #endif
@@ -1652,7 +1652,7 @@ extension ScaleCloudKit.ScaleCloudKit {
   public func setLivephotoAsync(serverUrlfileNamePath: Swift.String, livePhotoFile: Swift.String, account: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }) async -> (account: Swift.String, responseData: Alamofire.AFDataResponse<Foundation.Data>?, error: ScaleCloudKit.SCKError)
   #endif
 }
-extension ScaleCloudKit.ScaleCloudKit {
+extension ScaleCloudKit.SCKClient {
   public static var logger: ScaleCloudKit.SCKLogFileManager {
     get
   }
@@ -1660,7 +1660,7 @@ extension ScaleCloudKit.ScaleCloudKit {
   public static func configureLoggerBlacklist(blacklist: [Swift.String])
   public static func configureLoggerWhitelist(whitelist: [Swift.String])
 }
-extension ScaleCloudKit.ScaleCloudKit {
+extension ScaleCloudKit.SCKClient {
   #if compiler(>=5.3) && $NonescapableTypes
   public func getAppPassword(url: Swift.String, user: Swift.String, password: Swift.String, userAgent: Swift.String? = nil, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }, completion: @escaping (_ token: Swift.String?, _ responseData: Alamofire.AFDataResponse<Foundation.Data>?, _ error: ScaleCloudKit.SCKError) -> Swift.Void)
   #endif
@@ -1693,7 +1693,7 @@ extension ScaleCloudKit.ScaleCloudKit {
   public func getLoginFlowV2PollAsync(token: Swift.String, endpoint: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }) async -> (server: Swift.String?, loginName: Swift.String?, appPassword: Swift.String?, responseData: Alamofire.AFDataResponse<Foundation.Data>?, error: ScaleCloudKit.SCKError)
   #endif
 }
-extension ScaleCloudKit.ScaleCloudKit {
+extension ScaleCloudKit.SCKClient {
   #if compiler(>=5.3) && $NonescapableTypes
   public func textObtainEditorDetails(account: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }, completion: @escaping (_ account: Swift.String, _ editors: [ScaleCloudKit.SCKEditorDetailsEditor]?, _ creators: [ScaleCloudKit.SCKEditorDetailsCreator]?, _ responseData: Alamofire.AFDataResponse<Foundation.Data>?, _ error: ScaleCloudKit.SCKError) -> Swift.Void)
   #endif
@@ -1719,7 +1719,7 @@ extension ScaleCloudKit.ScaleCloudKit {
   public func textCreateFileAsync(fileNamePath: Swift.String, editorId: Swift.String, creatorId: Swift.String, templateId: Swift.String, account: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }) async -> (account: Swift.String, url: Swift.String?, responseData: Alamofire.AFDataResponse<Foundation.Data>?, error: ScaleCloudKit.SCKError)
   #endif
 }
-extension ScaleCloudKit.ScaleCloudKit {
+extension ScaleCloudKit.SCKClient {
   #if compiler(>=5.3) && $NonescapableTypes
   public func subscribingPushNotification(serverUrl: Swift.String, pushTokenHash: Swift.String, devicePublicKey: Swift.String, proxyServerUrl: Swift.String, account: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }, completion: @escaping (_ account: Swift.String, _ deviceIdentifier: Swift.String?, _ signature: Swift.String?, _ publicKey: Swift.String?, _ responseData: Alamofire.AFDataResponse<Foundation.Data>?, _ error: ScaleCloudKit.SCKError) -> Swift.Void)
   #endif
@@ -1745,7 +1745,7 @@ extension ScaleCloudKit.ScaleCloudKit {
   public func unsubscribingPushProxyAsync(proxyServerUrl: Swift.String, deviceIdentifier: Swift.String, signature: Swift.String, publicKey: Swift.String, account: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }) async -> (account: Swift.String, responseData: Alamofire.AFDataResponse<Foundation.Data>?, error: ScaleCloudKit.SCKError)
   #endif
 }
-extension ScaleCloudKit.ScaleCloudKit {
+extension ScaleCloudKit.SCKClient {
   #if compiler(>=5.3) && $NonescapableTypes
   public func getRecommendedFiles(account: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), request: @escaping (Alamofire.DataRequest?) -> Swift.Void = { _ in }, taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }, completion: @escaping (_ account: Swift.String, _ recommendations: [ScaleCloudKit.SCKRecommendation]?, _ responseData: Alamofire.AFDataResponse<Foundation.Data>?, _ error: ScaleCloudKit.SCKError) -> Swift.Void)
   #endif
@@ -1753,7 +1753,7 @@ extension ScaleCloudKit.ScaleCloudKit {
   public func getRecommendedFilesAsync(account: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), request: @escaping (Alamofire.DataRequest?) -> Swift.Void = { _ in }, taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }) async -> (account: Swift.String, recommendations: [ScaleCloudKit.SCKRecommendation]?, responseData: Alamofire.AFDataResponse<Foundation.Data>?, error: ScaleCloudKit.SCKError)
   #endif
 }
-extension ScaleCloudKit.ScaleCloudKit {
+extension ScaleCloudKit.SCKClient {
   #if compiler(>=5.3) && $NonescapableTypes
   public func createUrlRichdocuments(fileID: Swift.String, account: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }, completion: @escaping (_ account: Swift.String, _ url: Swift.String?, _ responseData: Alamofire.AFDataResponse<Foundation.Data>?, _ error: ScaleCloudKit.SCKError) -> Swift.Void)
   #endif
@@ -1779,7 +1779,7 @@ extension ScaleCloudKit.ScaleCloudKit {
   public func createAssetRichdocumentsAsync(path: Swift.String, account: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }) async -> (account: Swift.String, url: Swift.String?, responseData: Alamofire.AFDataResponse<Foundation.Data>?, error: ScaleCloudKit.SCKError)
   #endif
 }
-extension ScaleCloudKit.ScaleCloudKit {
+extension ScaleCloudKit.SCKClient {
   #if compiler(>=5.3) && $NonescapableTypes
   public func unifiedSearchProviders(timeout: Foundation.TimeInterval = 30, account: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), handle: ScaleCloudKit.SCKOperationHandle? = nil, filter: @escaping (ScaleCloudKit.SCKSearchProvider) -> Swift.Bool = { _ in true }) async -> (providers: [ScaleCloudKit.SCKSearchProvider]?, error: ScaleCloudKit.SCKError)
   #endif
@@ -1827,7 +1827,7 @@ extension ScaleCloudKit.ScaleCloudKit {
   public init(idShare: Swift.Int, reshares: Swift.Bool = false, subfiles: Swift.Bool = false, sharedWithMe: Swift.Bool = false)
   @objc deinit
 }
-extension ScaleCloudKit.ScaleCloudKit {
+extension ScaleCloudKit.SCKClient {
   #if compiler(>=5.3) && $NonescapableTypes
   public func readShares(parameters: ScaleCloudKit.SCKShareParameter, account: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }, completion: @escaping (_ account: Swift.String, _ shares: [ScaleCloudKit.SCKShare]?, _ responseData: Alamofire.AFDataResponse<Foundation.Data>?, _ error: ScaleCloudKit.SCKError) -> Swift.Void)
   #endif
@@ -1859,7 +1859,7 @@ extension ScaleCloudKit.ScaleCloudKit {
   public func deleteShareAsync(idShare: Swift.Int, account: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions()) async -> (account: Swift.String, responseData: Alamofire.AFDataResponse<Foundation.Data>?, error: ScaleCloudKit.SCKError)
   #endif
 }
-extension ScaleCloudKit.ScaleCloudKit {
+extension ScaleCloudKit.SCKClient {
   #if compiler(>=5.3) && $NonescapableTypes
   public func getDownloadLimit(account: Swift.String, token: Swift.String, completion: @escaping (ScaleCloudKit.SCKDownloadLimit?, ScaleCloudKit.SCKError) -> Swift.Void)
   #endif
@@ -1871,7 +1871,7 @@ extension ScaleCloudKit.ScaleCloudKit {
   public func setShareDownloadLimit(account: Swift.String, token: Swift.String, limit: Swift.Int, completion: @escaping (_ error: ScaleCloudKit.SCKError) -> Swift.Void)
   public func setShareDownloadLimitAsync(account: Swift.String, token: Swift.String, limit: Swift.Int) async -> ScaleCloudKit.SCKError
 }
-extension ScaleCloudKit.ScaleCloudKit {
+extension ScaleCloudKit.SCKClient {
   #if compiler(>=5.3) && $NonescapableTypes
   public func getTags(account: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }) async -> (account: Swift.String, tags: [ScaleCloudKit.SCKTag]?, responseData: Alamofire.AFDataResponse<Foundation.Data>?, error: ScaleCloudKit.SCKError)
   #endif
@@ -1888,7 +1888,7 @@ extension ScaleCloudKit.ScaleCloudKit {
   public func updateTagColor(tagId: Swift.String, color: Swift.String?, account: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }) async -> (account: Swift.String, responseData: Alamofire.AFDataResponse<Foundation.Data>?, error: ScaleCloudKit.SCKError)
   #endif
 }
-extension ScaleCloudKit.ScaleCloudKit {
+extension ScaleCloudKit.SCKClient {
   #if compiler(>=5.3) && $NonescapableTypes
   public func getTermsOfService(account: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), request: @escaping (Alamofire.DataRequest?) -> Swift.Void = { _ in }, taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }, completion: @escaping (_ account: Swift.String, _ tos: ScaleCloudKit.SCKTermsOfService?, _ responseData: Alamofire.AFDataResponse<Foundation.Data>?, _ error: ScaleCloudKit.SCKError) -> Swift.Void)
   #endif
@@ -1902,7 +1902,7 @@ extension ScaleCloudKit.ScaleCloudKit {
   public func signTermsOfServiceAsync(termId: Swift.String, account: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), taskHandler: ((Foundation.URLSessionTask) -> Swift.Void)? = nil) async -> (error: ScaleCloudKit.SCKError, response: Alamofire.AFDataResponse<Foundation.Data>?)
   #endif
 }
-extension ScaleCloudKit.ScaleCloudKit {
+extension ScaleCloudKit.SCKClient {
   #if compiler(>=5.3) && $NonescapableTypes
   public func upload(serverUrlFileName: Any, fileNameLocalPath: Swift.String, dateCreationFile: Foundation.Date? = nil, dateModificationFile: Foundation.Date? = nil, overwrite: Swift.Bool = false, autoMkcol: Swift.Bool = false, account: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), requestHandler: @escaping (_ request: Alamofire.UploadRequest) -> Swift.Void = { _ in }, taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }, progressHandler: @escaping (_ progress: Foundation.Progress) -> Swift.Void = { _ in }, completionHandler: @escaping (_ account: Swift.String, _ ocId: Swift.String?, _ etag: Swift.String?, _ date: Foundation.Date?, _ size: Swift.Int64, _ response: Alamofire.AFDataResponse<Foundation.Data>?, _ nkError: ScaleCloudKit.SCKError) -> Swift.Void)
   #endif
@@ -1920,7 +1920,7 @@ extension ScaleCloudKit.ScaleCloudKit {
   public func uploadChunkAsync(directory: Swift.String, fileChunksOutputDirectory: Swift.String? = nil, fileName: Swift.String, destinationFileName: Swift.String? = nil, date: Foundation.Date?, creationDate: Foundation.Date?, serverUrl: Swift.String, chunkFolder: Swift.String, filesChunk: [(fileName: Swift.String, size: Swift.Int64)], chunkSize: Swift.Int, account: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), chunkProgressHandler: @escaping (_ total: Swift.Int, _ counter: Swift.Int) -> Swift.Void = { _, _ in }, uploadStart: @escaping (_ filesChunk: [(fileName: Swift.String, size: Swift.Int64)]) -> Swift.Void = { _ in }, uploadTaskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }, uploadProgressHandler: @escaping (_ totalBytesExpected: Swift.Int64, _ totalBytes: Swift.Int64, _ fractionCompleted: Swift.Double) -> Swift.Void = { _, _, _ in }, uploaded: @escaping (_ fileChunk: (fileName: Swift.String, size: Swift.Int64)) -> Swift.Void = { _ in }, assembling: @escaping () -> Swift.Void = { }) async throws -> (account: Swift.String, file: ScaleCloudKit.SCKFile?)
   #endif
 }
-extension ScaleCloudKit.ScaleCloudKit {
+extension ScaleCloudKit.SCKClient {
   #if compiler(>=5.3) && $NonescapableTypes
   public func getUserStatus(userId: Swift.String? = nil, account: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }, completion: @escaping (_ account: Swift.String, _ clearAt: Foundation.Date?, _ icon: Swift.String?, _ message: Swift.String?, _ messageId: Swift.String?, _ messageIsPredefined: Swift.Bool, _ status: Swift.String?, _ statusIsUserDefined: Swift.Bool, _ userId: Swift.String?, _ responseData: Alamofire.AFDataResponse<Foundation.Data>?, _ error: ScaleCloudKit.SCKError) -> Swift.Void)
   #endif
@@ -1964,7 +1964,7 @@ extension ScaleCloudKit.ScaleCloudKit {
   public func getUserStatusRetrieveStatusesAsync(limit: Swift.Int, offset: Swift.Int, account: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }) async -> (account: Swift.String, userStatuses: [ScaleCloudKit.SCKUserStatus]?, responseData: Alamofire.AFDataResponse<Foundation.Data>?, error: ScaleCloudKit.SCKError)
   #endif
 }
-extension ScaleCloudKit.ScaleCloudKit {
+extension ScaleCloudKit.SCKClient {
   #if compiler(>=5.3) && $NonescapableTypes
   public func createFolder(serverUrlFileName: Swift.String, account: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), taskHandler: @escaping (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }, completion: @escaping (_ account: Swift.String, _ ocId: Swift.String?, _ date: Foundation.Date?, _ responseData: Alamofire.AFDataResponse<Foundation.Data>?, _ error: ScaleCloudKit.SCKError) -> Swift.Void)
   #endif
@@ -2038,8 +2038,8 @@ extension ScaleCloudKit.ScaleCloudKit {
   public func listingTrashAsync(filename: Swift.String? = nil, showHiddenFiles: Swift.Bool, account: Swift.String, options: ScaleCloudKit.SCKRequestOptions = SCKRequestOptions(), taskHandler: @escaping @Sendable (_ task: Foundation.URLSessionTask) -> Swift.Void = { _ in }) async -> (account: Swift.String, items: [ScaleCloudKit.SCKTrash]?, responseData: Alamofire.AFDataResponse<Foundation.Data>?, error: ScaleCloudKit.SCKError)
   #endif
 }
-@objc @_inheritsConvenienceInitializers open class ScaleCloudKit : ObjectiveC.NSObject, @unchecked Swift.Sendable {
-  public static let shared: ScaleCloudKit.ScaleCloudKit
+@objc @_inheritsConvenienceInitializers open class SCKClient : ObjectiveC.NSObject, @unchecked Swift.Sendable {
+  public static let shared: ScaleCloudKit.SCKClient
   public var nkCommonInstance: ScaleCloudKit.SCKCommon
   @objc override dynamic public init()
   @objc deinit
