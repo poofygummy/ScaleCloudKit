@@ -10,10 +10,10 @@ import UIKit
 import Alamofire
 import SwiftyJSON
 
-open class ScaleCloudKit: NSObject, @unchecked Sendable {
+open class SCKClient: NSObject, @unchecked Sendable {
 #if swift(<6.0)
-    public static let shared: ScaleCloudKit = {
-        let instance = ScaleCloudKit()
+    public static let shared: SCKClient = {
+        let instance = SCKClient()
         return instance
     }()
 #endif

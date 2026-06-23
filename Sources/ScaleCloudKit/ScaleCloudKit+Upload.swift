@@ -6,7 +6,7 @@ import Foundation
 import Alamofire
 import SwiftyJSON
 
-public extension ScaleCloudKit {
+public extension SCKClient {
     /// Uploads a file to the Nextcloud server.
     ///
     /// - Parameters:

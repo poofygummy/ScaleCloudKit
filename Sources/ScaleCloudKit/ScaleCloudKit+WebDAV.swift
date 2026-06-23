@@ -6,7 +6,7 @@ import Foundation
 import Alamofire
 import SwiftyJSON
 
-public extension ScaleCloudKit {
+public extension SCKClient {
     /// Creates a folder on the Nextcloud server at the specified path.
     ///
     /// - Parameters:

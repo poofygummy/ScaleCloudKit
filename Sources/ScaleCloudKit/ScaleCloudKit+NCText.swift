@@ -6,7 +6,7 @@ import Foundation
 import Alamofire
 import SwiftyJSON
 
-public extension ScaleCloudKit {
+public extension SCKClient {
     /// Retrieves the list of editors and creators for collaborative text editing.
     ///
     /// Parameters:

@@ -5,7 +5,7 @@
 import Foundation
 import Alamofire
 
-public extension ScaleCloudKit {
+public extension SCKClient {
     /// Retrieves the list of supported task types for a specific account and task category.
     /// Typically used to discover available AI or text processing capabilities.
     ///

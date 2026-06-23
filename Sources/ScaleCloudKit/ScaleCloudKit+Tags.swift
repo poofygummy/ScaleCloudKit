@@ -5,7 +5,7 @@
 import Foundation
 import Alamofire
 
-public extension ScaleCloudKit {
+public extension SCKClient {
     private var systemTagsPath: String { "/remote.php/dav/systemtags/" }
     private var systemTagRelationsFilesPath: String { "/remote.php/dav/systemtags-relations/files/" }
 

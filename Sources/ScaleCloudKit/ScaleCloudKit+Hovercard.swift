@@ -6,7 +6,7 @@ import Foundation
 import Alamofire
 import SwiftyJSON
 
-public extension ScaleCloudKit {
+public extension SCKClient {
     /// Retrieves the hovercard information for a specific user from the Nextcloud server.
     /// - Parameters:
     ///   - userId: The identifier of the user whose hovercard is being requested.

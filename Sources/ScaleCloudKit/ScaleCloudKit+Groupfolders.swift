@@ -7,7 +7,7 @@ import Foundation
 import Alamofire
 import SwiftyJSON
 
-public extension ScaleCloudKit {
+public extension SCKClient {
     /// Retrieves the list of available group folders for the given Nextcloud account.
     /// Group folders are shared spaces available across users and groups,
     /// managed via the groupfolders app.

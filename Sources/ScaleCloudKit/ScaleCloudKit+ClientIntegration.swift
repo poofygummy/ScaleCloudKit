@@ -6,7 +6,7 @@ import Foundation
 import Alamofire
 import SwiftyJSON
 
-public extension ScaleCloudKit {
+public extension SCKClient {
     // MARK: - App Password
 
     /// Retrieves an app password (token) for the given user credentials and server URL.

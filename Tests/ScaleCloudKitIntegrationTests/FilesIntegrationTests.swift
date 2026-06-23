@@ -12,10 +12,10 @@ final class FilesIntegrationTests: BaseIntegrationXCTestCase {
 //        let serverUrl = "\(TestConstants.server)/remote.php/dav/files/\(TestConstants.username)"
 //        let serverUrlFileName = "\(serverUrl)/\(folderName)"
 //
-//        ScaleCloudKit.shared.appendSession(account: TestConstants.account, urlBase: TestConstants.server, user: TestConstants.username, userId: TestConstants.username, password: TestConstants.password, userAgent: "", nextcloudVersion: 0, groupIdentifier: "")
+//        SCKClient.shared.appendSession(account: TestConstants.account, urlBase: TestConstants.server, user: TestConstants.username, userId: TestConstants.username, password: TestConstants.password, userAgent: "", nextcloudVersion: 0, groupIdentifier: "")
 //
 //        // Test creating folder
-//        ScaleCloudKit.shared.createFolder(serverUrlFileName: serverUrlFileName, account: TestConstants.account) { account, ocId, date, _, error in
+//        SCKClient.shared.createFolder(serverUrlFileName: serverUrlFileName, account: TestConstants.account) { account, ocId, date, _, error in
 //            XCTAssertEqual(TestConstants.account, account)
 //
 //            XCTAssertEqual(SCKError.success.errorCode, error.errorCode)
@@ -24,7 +24,7 @@ final class FilesIntegrationTests: BaseIntegrationXCTestCase {
 //            Thread.sleep(forTimeInterval: 0.2)
 //
 //            // Test reading folder, should exist
-//            ScaleCloudKit.shared.readFileOrFolder(serverUrlFileName: serverUrlFileName, depth: "0", account: account) { account, files, data, error in
+//            SCKClient.shared.readFileOrFolder(serverUrlFileName: serverUrlFileName, depth: "0", account: account) { account, files, data, error in
 //                XCTAssertEqual(TestConstants.account, account)
 //                XCTAssertEqual(SCKError.success.errorCode, error.errorCode)
 //                XCTAssertEqual(SCKError.success.errorDescription, error.errorDescription)
@@ -33,7 +33,7 @@ final class FilesIntegrationTests: BaseIntegrationXCTestCase {
 //                Thread.sleep(forTimeInterval: 0.2)
 //
 //                // Test deleting folder
-//                ScaleCloudKit.shared.deleteFileOrFolder(serverUrlFileName: serverUrlFileName, account: account) { account, _, error in
+//                SCKClient.shared.deleteFileOrFolder(serverUrlFileName: serverUrlFileName, account: account) { account, _, error in
 //                    XCTAssertEqual(TestConstants.account, account)
 //                    XCTAssertEqual(SCKError.success.errorCode, error.errorCode)
 //                    XCTAssertEqual(SCKError.success.errorDescription, error.errorDescription)
@@ -41,7 +41,7 @@ final class FilesIntegrationTests: BaseIntegrationXCTestCase {
 //                    Thread.sleep(forTimeInterval: 0.2)
 //
 //                    // Test reading folder, should NOT exist
-//                    ScaleCloudKit.shared.readFileOrFolder(serverUrlFileName: serverUrlFileName, depth: "0", account: account) { account, files, data, error in
+//                    SCKClient.shared.readFileOrFolder(serverUrlFileName: serverUrlFileName, depth: "0", account: account) { account, files, data, error in
 //                        defer { expectation.fulfill() }
 //
 //                        XCTAssertEqual(404, error.errorCode)

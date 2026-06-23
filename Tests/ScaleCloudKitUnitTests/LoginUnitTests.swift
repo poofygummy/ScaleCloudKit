@@ -23,7 +23,7 @@ class LoginUnitTests: XCTestCase {
 
     override func setUp() {
         // Set our mock session manager as the one the API is going to use
-//        ScaleCloudKit.shared.nkCommonInstance.sessionConfiguration = mockSessionManager()
+//        SCKClient.shared.nkCommonInstance.sessionConfiguration = mockSessionManager()
     }
 
     // Format of function names should be: func test_functionName_withCircumstances_shouldExpectation() {}
@@ -42,13 +42,13 @@ class LoginUnitTests: XCTestCase {
         }
         mock.register()
 
-//        ScaleCloudKit.shared.nkCommonInstance.sessionConfiguration = mockSessionManager()
+//        SCKClient.shared.nkCommonInstance.sessionConfiguration = mockSessionManager()
 
         // Now we call the function we want to test; it will use the mock session and request and return the mock data
 #if swift(<6.0)
-        let ncKit = ScaleCloudKit.shared
+        let ncKit = SCKClient.shared
 #else
-        let ncKit = ScaleCloudKit()
+        let ncKit =)
 #endif
         ncKit.getLoginFlowV2(serverUrl: serverUrl) { token, endpoint, login, data, error in
             let json = JSON(mockJsonData)
@@ -77,9 +77,9 @@ class LoginUnitTests: XCTestCase {
         mock.register()
 
 #if swift(<6.0)
-        let ncKit = ScaleCloudKit.shared
+        let ncKit = SCKClient.shared
 #else
-        let ncKit = ScaleCloudKit()
+        let ncKit =)
 #endif
         // Now we call the function we want to test; it will use the mock session and request and return the mock data
         ncKit.getLoginFlowV2(serverUrl: serverUrl) { token, endpoint, login, data, error in
@@ -102,12 +102,12 @@ class LoginUnitTests: XCTestCase {
         mock.register()
 
         // Set our mock session manager as the one the API is going to use
-//        ScaleCloudKit.shared.nkCommonInstance.sessionConfiguration = mockSessionManager()
+//        SCKClient.shared.nkCommonInstance.sessionConfiguration = mockSessionManager()
 
 #if swift(<6.0)
-        let ncKit = ScaleCloudKit.shared
+        let ncKit = SCKClient.shared
 #else
-        let ncKit = ScaleCloudKit()
+        let ncKit =)
 #endif
         // Now we call the function we want to test; it will use the mock session and request and return the mock data
         ncKit.getLoginFlowV2(serverUrl: "badUrl") { token, endpoint, login, data, error in

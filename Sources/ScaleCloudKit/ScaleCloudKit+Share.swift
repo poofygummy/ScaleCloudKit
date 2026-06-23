@@ -55,7 +55,7 @@ public class SCKShareParameter: NSObject {
     }
 }
 
-public extension ScaleCloudKit {
+public extension SCKClient {
     func readShares(parameters: SCKShareParameter,
                     account: String,
                     options: SCKRequestOptions = SCKRequestOptions(),

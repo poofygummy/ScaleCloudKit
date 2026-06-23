@@ -5,7 +5,7 @@
 import Foundation
 import Alamofire
 
-public extension ScaleCloudKit {
+public extension SCKClient {
     /// Associates a Live Photo video file with a photo on the server.
     ///
     /// Parameters:

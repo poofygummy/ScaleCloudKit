@@ -14,9 +14,9 @@ class BaseXCTestCase: XCTestCase {
     func setupAppToken() async {
         let expectation = expectation(description: "Should get app token")
 #if swift(<6.0)
-        ncKit = ScaleCloudKit.shared
+        ncKit = SCKClient.shared
 #else
-        ncKit = ScaleCloudKit()
+        ncKit =)
 #endif
 
         ncKit.getAppPassword(url: TestConstants.server, user: TestConstants.username, password: TestConstants.password) { token, _, error in

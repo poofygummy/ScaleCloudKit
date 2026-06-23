@@ -30,7 +30,7 @@ public class SCKNotifications: NSObject {
     public var user = ""
 }
 
-public extension ScaleCloudKit {
+public extension SCKClient {
     /// Checks if the specified server URL is reachable and returns the raw HTTP response.
     /// Used to verify the availability and responsiveness of a Nextcloud server.
     ///

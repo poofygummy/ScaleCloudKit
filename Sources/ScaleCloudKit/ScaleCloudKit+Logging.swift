@@ -2,7 +2,7 @@
 // SPDX-FileCopyrightText: 2025 Marino Faggiana
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-public extension ScaleCloudKit {
+public extension SCKClient {
     /// Shared logger accessible via ScaleCloudKit.logger
     static var logger: SCKLogFileManager {
         return SCKLogFileManager.shared

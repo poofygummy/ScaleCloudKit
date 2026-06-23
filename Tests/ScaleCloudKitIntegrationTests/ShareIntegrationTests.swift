@@ -14,9 +14,9 @@ final class ShareIntegrationTests: BaseIntegrationXCTestCase {
 //        let serverUrl = "\(TestConstants.server)/remote.php/dav/files/\(TestConstants.username)"
 //        let serverUrlFileName = "\(serverUrl)/\(folderName)"
 //
-//        ScaleCloudKit.shared.appendSession(account: TestConstants.account, urlBase: TestConstants.server, user: TestConstants.username, userId: TestConstants.username, password: TestConstants.password, userAgent: "", nextcloudVersion: 0, groupIdentifier: "")
+//        SCKClient.shared.appendSession(account: TestConstants.account, urlBase: TestConstants.server, user: TestConstants.username, userId: TestConstants.username, password: TestConstants.password, userAgent: "", nextcloudVersion: 0, groupIdentifier: "")
 //
-//        ScaleCloudKit.shared.createFolder(serverUrlFileName: serverUrlFileName, account: TestConstants.account) { account, ocId, date, _, error in
+//        SCKClient.shared.createFolder(serverUrlFileName: serverUrlFileName, account: TestConstants.account) { account, ocId, date, _, error in
 //            XCTAssertEqual(TestConstants.account, account)
 //
 //            XCTAssertEqual(SCKError.success.errorCode, error.errorCode)
@@ -26,7 +26,7 @@ final class ShareIntegrationTests: BaseIntegrationXCTestCase {
 //
 //            let note = "Test note"
 //
-//            ScaleCloudKit.shared.createShare(path: folderName, shareType: 0, shareWith: "nextcloud", note: note, account: "") { account, share, data, error in
+//            SCKClient.shared.createShare(path: folderName, shareType: 0, shareWith: "nextcloud", note: note, account: "") { account, share, data, error in
 //                defer { expectation.fulfill() }
 //
 //                XCTAssertEqual(TestConstants.account, account)

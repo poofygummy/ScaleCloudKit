@@ -280,27 +280,27 @@ public struct SCKCommon: Sendable {
 
         /// Unavailable
         if errorCode == 503 {
-            var array = groupDefaults.array(forKey: ScaleCloudKit.shared.nkCommonInstance.groupDefaultsUnavailable) as? [String] ?? []
+            var array = groupDefaults.array(forKey: SCKClient.shared.nkCommonInstance.groupDefaultsUnavailable) as? [String] ?? []
 
             if !array.contains(account) {
                 array.append(account)
-                groupDefaults.set(array, forKey: ScaleCloudKit.shared.nkCommonInstance.groupDefaultsUnavailable)
+                groupDefaults.set(array, forKey: SCKClient.shared.nkCommonInstance.groupDefaultsUnavailable)
             }
         /// Unauthorized
         } else if errorCode == 401 {
-            var array = groupDefaults.array(forKey: ScaleCloudKit.shared.nkCommonInstance.groupDefaultsUnauthorized) as? [String] ?? []
+            var array = groupDefaults.array(forKey: SCKClient.shared.nkCommonInstance.groupDefaultsUnauthorized) as? [String] ?? []
 
             if !array.contains(account) {
                 array.append(account)
-                groupDefaults.set(array, forKey: ScaleCloudKit.shared.nkCommonInstance.groupDefaultsUnauthorized)
+                groupDefaults.set(array, forKey: SCKClient.shared.nkCommonInstance.groupDefaultsUnauthorized)
             }
         /// ToS
         } else if errorCode == 403, capabilities.termsOfService {
-            var array = groupDefaults.array(forKey: ScaleCloudKit.shared.nkCommonInstance.groupDefaultsToS) as? [String] ?? []
+            var array = groupDefaults.array(forKey: SCKClient.shared.nkCommonInstance.groupDefaultsToS) as? [String] ?? []
 
             if !array.contains(account) {
                 array.append(account)
-                groupDefaults.set(array, forKey: ScaleCloudKit.shared.nkCommonInstance.groupDefaultsToS)
+                groupDefaults.set(array, forKey: SCKClient.shared.nkCommonInstance.groupDefaultsToS)
             }
         }
     }

@@ -33,16 +33,16 @@ public final class SCKBackground: NSObject, URLSessionTaskDelegate, URLSessionDe
                          sessionIdentifier: String) -> (URLSessionDownloadTask?, error: SCKError) {
         var url: URL?
         var downloadSession: URLSession?
-        let groupDefaults = UserDefaults(suiteName: ScaleCloudKit.shared.nkCommonInstance.groupIdentifier)
+        let groupDefaults = UserDefaults(suiteName: SCKClient.shared.nkCommonInstance.groupIdentifier)
 
         /// Check if error is in groupDefaults
-        if let array = groupDefaults?.array(forKey: ScaleCloudKit.shared.nkCommonInstance.groupDefaultsUnauthorized) as? [String],
+        if let array = groupDefaults?.array(forKey: SCKClient.shared.nkCommonInstance.groupDefaultsUnauthorized) as? [String],
            array.contains(account) {
             return (nil, .unauthorizedError)
-        } else if let array = groupDefaults?.array(forKey: ScaleCloudKit.shared.nkCommonInstance.groupDefaultsUnavailable) as? [String],
+        } else if let array = groupDefaults?.array(forKey: SCKClient.shared.nkCommonInstance.groupDefaultsUnavailable) as? [String],
                   array.contains(account) {
             return (nil, .unavailableError)
-        } else if let array = groupDefaults?.array(forKey: ScaleCloudKit.shared.nkCommonInstance.groupDefaultsToS) as? [String],
+        } else if let array = groupDefaults?.array(forKey: SCKClient.shared.nkCommonInstance.groupDefaultsToS) as? [String],
                   array.contains(account) {
             return (nil, .forbiddenError)
         }
@@ -143,20 +143,20 @@ public final class SCKBackground: NSObject, URLSessionTaskDelegate, URLSessionDe
                        sessionIdentifier: String) -> (URLSessionUploadTask?, error: SCKError) {
         var url: URL?
         var uploadSession: URLSession?
-        let groupDefaults = UserDefaults(suiteName: ScaleCloudKit.shared.nkCommonInstance.groupIdentifier)
+        let groupDefaults = UserDefaults(suiteName: SCKClient.shared.nkCommonInstance.groupIdentifier)
 
         guard FileManager.default.fileExists(atPath: fileNameLocalPath) else {
             return (nil, .urlError)
         }
 
         /// Check if error is in groupDefaults
-        if let array = groupDefaults?.array(forKey: ScaleCloudKit.shared.nkCommonInstance.groupDefaultsUnauthorized) as? [String],
+        if let array = groupDefaults?.array(forKey: SCKClient.shared.nkCommonInstance.groupDefaultsUnauthorized) as? [String],
            array.contains(account) {
             return (nil, .unauthorizedError)
-        } else if let array = groupDefaults?.array(forKey: ScaleCloudKit.shared.nkCommonInstance.groupDefaultsUnavailable) as? [String],
+        } else if let array = groupDefaults?.array(forKey: SCKClient.shared.nkCommonInstance.groupDefaultsUnavailable) as? [String],
                   array.contains(account) {
             return (nil, .unavailableError)
-        } else if let array = groupDefaults?.array(forKey: ScaleCloudKit.shared.nkCommonInstance.groupDefaultsToS) as? [String],
+        } else if let array = groupDefaults?.array(forKey: SCKClient.shared.nkCommonInstance.groupDefaultsToS) as? [String],
                   array.contains(account) {
             return (nil, .forbiddenError)
         }
