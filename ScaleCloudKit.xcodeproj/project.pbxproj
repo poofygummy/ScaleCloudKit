@@ -563,6 +563,7 @@
 					"\"../ScaleCloudGo/prebuilt\"",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scalecloud.ScaleCloudKit;
 				PRODUCT_MODULE_NAME = ScaleCloudKit;
 				PRODUCT_NAME = ScaleCloudKit;
 				SWIFT_VERSION = 5.0;
@@ -574,6 +575,7 @@
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scalecloud.ScaleCloudKit;
 				PRODUCT_MODULE_NAME = ScaleCloudKit;
 				PRODUCT_NAME = ScaleCloudKit;
 				SDKROOT = iphoneos;
@@ -586,6 +588,7 @@
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scalecloud.ScaleCloudKit;
 				PRODUCT_MODULE_NAME = ScaleCloudKit;
 				PRODUCT_NAME = ScaleCloudKit;
 				SDKROOT = iphoneos;
@@ -602,6 +605,7 @@
 					"\"../ScaleCloudGo/prebuilt\"",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scalecloud.ScaleCloudKit;
 				PRODUCT_MODULE_NAME = ScaleCloudKit;
 				PRODUCT_NAME = ScaleCloudKit;
 				SWIFT_VERSION = 5.0;
