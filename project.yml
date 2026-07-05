@@ -24,8 +24,8 @@ settings:
     DEFINES_MODULE: "YES"
     PRODUCT_NAME: ScaleCloudKit
     PRODUCT_MODULE_NAME: ScaleCloudKit
+    PRODUCT_BUNDLE_IDENTIFIER: com.scalecloud.ScaleCloudKit
     SWIFT_VERSION: "5.0"
-    IPHONEOS_DEPLOYMENT_TARGET: "14.0"
     IPHONEOS_DEPLOYMENT_TARGET: "14.0"
 targets:
   ScaleCloudKit:
@@ -39,6 +39,7 @@ targets:
         DEFINES_MODULE: "YES"
         PRODUCT_NAME: ScaleCloudKit
         PRODUCT_MODULE_NAME: ScaleCloudKit
+        PRODUCT_BUNDLE_IDENTIFIER: com.scalecloud.ScaleCloudKit
         SWIFT_VERSION: "5.0"        
     dependencies:
       - framework: ../ScaleCloudGo/prebuilt/ScaleCloudGo.xcframework
