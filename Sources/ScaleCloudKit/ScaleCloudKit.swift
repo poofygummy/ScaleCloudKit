@@ -29,6 +29,10 @@ open class SCKClient: NSObject, @unchecked Sendable {
     internal lazy var unauthorizedSession: Alamofire.Session = {
         let configuration = URLSessionConfiguration.af.default
         configuration.requestCachePolicy = .reloadIgnoringLocalCacheData
+        // ScaleCloud: also route unauthenticated requests (getServerStatus, getLoginFlowV2, etc.)
+        // through the Tailscale proxy so that *.ts.net hostnames are reachable before an account
+        // session exists. applyProxySettings() starts the proxy if not already running.
+        configuration.connectionProxyDictionary = SCKSession.applyProxySettings()
 
         return Alamofire.Session(configuration: configuration,
                                  delegate: NextcloudKitSessionDelegate(nkCommonInstance: nkCommonInstance),
