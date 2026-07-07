@@ -102,6 +102,11 @@ public struct SCKSession: @unchecked Sendable {
         }
     }
 
+    /// Returns and clears the buffered tsnet log lines from the Go layer.
+    public static func getTsnetLogs() -> String {
+        return ScaleCloudGoGetLogs()
+    }
+
     // ScaleCloud: register a URLSession so we can track when all sessions are gone
     // Made public so ScaleCloudRenew can register its sessions
     public static func registerSession(_ session: URLSession) {
