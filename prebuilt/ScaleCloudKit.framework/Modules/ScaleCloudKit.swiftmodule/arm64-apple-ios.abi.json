@@ -33942,6 +33942,29 @@
           },
           {
             "kind": "Function",
+            "name": "getTsnetLogs",
+            "printedName": "getTsnetLogs()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ScaleCloudKit10SCKSessionV12getTsnetLogsSSyFZ",
+            "mangledName": "$s13ScaleCloudKit10SCKSessionV12getTsnetLogsSSyFZ",
+            "moduleName": "ScaleCloudKit",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "registerSession",
             "printedName": "registerSession(_:)",
             "children": [
