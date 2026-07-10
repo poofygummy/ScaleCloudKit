@@ -9,16 +9,6 @@
 
 
 name: ScaleCloudKit
-packages:
-  Alamofire:
-    url: https://github.com/Alamofire/Alamofire.git
-    from: 5.10.2
-  SwiftyJSON:
-    url: https://github.com/SwiftyJSON/SwiftyJSON.git
-    from: 5.0.2
-  SwiftyXMLParser:
-    url: https://github.com/yahoojapan/SwiftyXMLParser.git
-    from: 5.6.0
 settings:
   base:
     DEFINES_MODULE: "YES"
@@ -44,6 +34,9 @@ targets:
     dependencies:
       - framework: ../ScaleCloudGo/prebuilt/ScaleCloudGo.xcframework
         embed: false
-      - package: Alamofire
-      - package: SwiftyJSON
-      - package: SwiftyXMLParser
+      - framework: ../ScaleCloudDeps/prebuilt/Alamofire.xcframework
+        embed: false
+      - framework: ../ScaleCloudDeps/prebuilt/SwiftyJSON.xcframework
+        embed: false
+      - framework: ../ScaleCloudDeps/prebuilt/SwiftyXMLParser.xcframework
+        embed: false
