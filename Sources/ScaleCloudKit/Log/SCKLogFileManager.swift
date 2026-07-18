@@ -109,11 +109,12 @@ public final class SCKLogFileManager: @unchecked Sendable {
 
     // MARK: - Injection mode flag
 
-    /// When true, suppresses all `print()` output to stdout.
+    /// When true, suppresses the raw capabilities JSON `print()` calls in `setCapabilitiesAsync`.
     /// Set by the app early in AppDelegate when iloader injection args are detected,
     /// so the mile-long Nextcloud capabilities JSON doesn't flood iloader's stdout
     /// pipe before SCALECLOUD_PUBKEY_READY is printed.
-    public var suppressPrintOutput: Bool = false
+    /// Regular SCK log lines (writeLog) are NOT affected by this flag.
+    public var suppressCapabilitiesJson: Bool = false
 
     // MARK: - Configuration
 
@@ -291,9 +292,7 @@ public final class SCKLogFileManager: @unchecked Sendable {
 
         // Build the console line with emoji
         let consoleLine = "[SCKLOG] [\(consoleTimestamp)] \(emoji)\(visualMessage)"
-        if !suppressPrintOutput {
-            print(consoleLine)
-        }
+        print(consoleLine)
 
         if consoleOnly {
             return
