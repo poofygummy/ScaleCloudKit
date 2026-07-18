@@ -15,7 +15,7 @@ public enum SCKEditorDetailsConverter {
         let editors = decoded.ocs.data.editorsArray()
         let creators = decoded.ocs.data.creatorsArray()
 
-        if SCKLogFileManager.shared.logLevel == .verbose {
+        if SCKLogFileManager.shared.logLevel == .verbose && !SCKLogFileManager.shared.suppressCapabilitiesJson {
             data.printJson()
         }
         
