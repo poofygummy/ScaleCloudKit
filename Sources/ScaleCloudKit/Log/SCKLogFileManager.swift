@@ -107,6 +107,14 @@ public final class SCKLogFileManager: @unchecked Sendable {
         return logDirectory.appendingPathComponent(logFileName)
     }
 
+    // MARK: - Injection mode flag
+
+    /// When true, suppresses all `print()` output to stdout.
+    /// Set by the app early in AppDelegate when iloader injection args are detected,
+    /// so the mile-long Nextcloud capabilities JSON doesn't flood iloader's stdout
+    /// pipe before SCALECLOUD_PUBKEY_READY is printed.
+    public var suppressPrintOutput: Bool = false
+
     // MARK: - Configuration
 
     private let logFileName = "log.txt"
@@ -283,7 +291,9 @@ public final class SCKLogFileManager: @unchecked Sendable {
 
         // Build the console line with emoji
         let consoleLine = "[SCKLOG] [\(consoleTimestamp)] \(emoji)\(visualMessage)"
-        print(consoleLine)
+        if !suppressPrintOutput {
+            print(consoleLine)
+        }
 
         if consoleOnly {
             return

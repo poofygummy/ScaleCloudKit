@@ -383,7 +383,7 @@ public extension SCKClient {
             let ocs: Ocs
         }
 
-        if SCKLogFileManager.shared.logLevel >= .normal {
+        if SCKLogFileManager.shared.logLevel >= .normal && !SCKLogFileManager.shared.suppressPrintOutput {
             jsonData.printJson()
         }
 
@@ -393,7 +393,9 @@ public extension SCKClient {
             let data = decoded.ocs.data
             let json = data.capabilities
 
-            print(json)
+            if !SCKLogFileManager.shared.suppressPrintOutput {
+                print(json)
+            }
 
             // Initialize capabilities
             let capabilities = SCKCapabilities.Capabilities()
