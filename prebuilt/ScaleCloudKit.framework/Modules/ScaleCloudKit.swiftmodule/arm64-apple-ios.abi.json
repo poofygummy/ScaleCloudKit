@@ -26390,6 +26390,103 @@
           },
           {
             "kind": "Var",
+            "name": "suppressCapabilitiesJson",
+            "printedName": "suppressCapabilitiesJson",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ScaleCloudKit17SCKLogFileManagerC24suppressCapabilitiesJsonSbvp",
+            "mangledName": "$s13ScaleCloudKit17SCKLogFileManagerC24suppressCapabilitiesJsonSbvp",
+            "moduleName": "ScaleCloudKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ScaleCloudKit17SCKLogFileManagerC24suppressCapabilitiesJsonSbvg",
+                "mangledName": "$s13ScaleCloudKit17SCKLogFileManagerC24suppressCapabilitiesJsonSbvg",
+                "moduleName": "ScaleCloudKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ScaleCloudKit17SCKLogFileManagerC24suppressCapabilitiesJsonSbvs",
+                "mangledName": "$s13ScaleCloudKit17SCKLogFileManagerC24suppressCapabilitiesJsonSbvs",
+                "moduleName": "ScaleCloudKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ScaleCloudKit17SCKLogFileManagerC24suppressCapabilitiesJsonSbvM",
+                "mangledName": "$s13ScaleCloudKit17SCKLogFileManagerC24suppressCapabilitiesJsonSbvM",
+                "moduleName": "ScaleCloudKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "logLevel",
             "printedName": "logLevel",
             "children": [
@@ -99743,155 +99840,162 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4171,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
       "kind": "StringLiteral",
-      "offset": 3750,
+      "offset": 4238,
       "length": 9,
       "value": "\"log.txt\""
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
       "kind": "Array",
-      "offset": 3869,
+      "offset": 4357,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
       "kind": "Array",
-      "offset": 3910,
+      "offset": 4398,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
       "kind": "StringLiteral",
-      "offset": 4000,
+      "offset": 4488,
       "length": 30,
       "value": "\"com.nextcloud.LogWriterQueue\""
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
       "kind": "StringLiteral",
-      "offset": 4110,
+      "offset": 4598,
       "length": 32,
       "value": "\"com.nextcloud.LogRotationQueue\""
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
       "kind": "Dictionary",
-      "offset": 4362,
+      "offset": 4850,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
       "kind": "StringLiteral",
-      "offset": 4433,
+      "offset": 4921,
       "length": 35,
       "value": "\"com.nextcloud.dateformatter.cache\""
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 7148,
+      "offset": 7636,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 7371,
+      "offset": 7859,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 7596,
+      "offset": 8084,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 7822,
+      "offset": 8310,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 8048,
+      "offset": 8536,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 8276,
+      "offset": 8764,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 8502,
+      "offset": 8990,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 8725,
+      "offset": 9213,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 8946,
+      "offset": 9434,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 9169,
+      "offset": 9657,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 9838,
+      "offset": 10326,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 10757,
+      "offset": 11245,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
       "kind": "StringLiteral",
-      "offset": 14975,
+      "offset": 15463,
       "length": 12,
       "value": "\"yyyy-MM-dd\""
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
       "kind": "StringLiteral",
-      "offset": 15361,
+      "offset": 15849,
       "length": 13,
       "value": "\"en_US_POSIX\""
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/Log\/SCKLogFileManager.swift",
       "kind": "StringLiteral",
-      "offset": 15453,
+      "offset": 15941,
       "length": 21,
       "value": "\"yyyy-MM-dd HH:mm:ss\""
     },
@@ -101592,651 +101696,651 @@
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 18987,
+      "offset": 19127,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "IntegerLiteral",
-      "offset": 19090,
+      "offset": 19230,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 19199,
+      "offset": 19339,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 19318,
+      "offset": 19458,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "IntegerLiteral",
-      "offset": 19429,
+      "offset": 19569,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 19557,
+      "offset": 19697,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "IntegerLiteral",
-      "offset": 19681,
+      "offset": 19821,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 19805,
+      "offset": 19945,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "IntegerLiteral",
-      "offset": 19925,
+      "offset": 20065,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 20010,
+      "offset": 20150,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "IntegerLiteral",
-      "offset": 20116,
+      "offset": 20256,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "StringLiteral",
-      "offset": 20182,
+      "offset": 20322,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "StringLiteral",
-      "offset": 20262,
+      "offset": 20402,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "StringLiteral",
-      "offset": 20336,
+      "offset": 20476,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "StringLiteral",
-      "offset": 20400,
+      "offset": 20540,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "StringLiteral",
-      "offset": 20468,
+      "offset": 20608,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 20547,
+      "offset": 20687,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "StringLiteral",
-      "offset": 20634,
+      "offset": 20774,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 20723,
+      "offset": 20863,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "Array",
-      "offset": 20872,
+      "offset": 21012,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 20947,
+      "offset": 21087,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "Array",
-      "offset": 21078,
+      "offset": 21218,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "Array",
-      "offset": 21158,
+      "offset": 21298,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 21227,
+      "offset": 21367,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 21300,
+      "offset": 21440,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "StringLiteral",
-      "offset": 21373,
+      "offset": 21513,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 21441,
+      "offset": 21581,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 21526,
+      "offset": 21666,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 21606,
+      "offset": 21746,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 21695,
+      "offset": 21835,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 21849,
+      "offset": 21989,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "IntegerLiteral",
-      "offset": 21906,
+      "offset": 22046,
       "length": 2,
       "value": "28"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 21969,
+      "offset": 22109,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 22076,
+      "offset": 22216,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 22193,
+      "offset": 22333,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "Array",
-      "offset": 22279,
+      "offset": 22419,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "Array",
-      "offset": 22378,
+      "offset": 22518,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "Array",
-      "offset": 22479,
+      "offset": 22619,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "Array",
-      "offset": 22580,
+      "offset": 22720,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 22660,
+      "offset": 22800,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 22740,
+      "offset": 22880,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "StringLiteral",
-      "offset": 23042,
+      "offset": 23182,
       "length": 67,
       "value": "\"Could not decode json capabilities: \""
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "StringLiteral",
-      "offset": 23108,
+      "offset": 23248,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "Dictionary",
-      "offset": 23326,
+      "offset": 23466,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "IntegerLiteral",
-      "offset": 24092,
+      "offset": 24232,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "IntegerLiteral",
-      "offset": 24164,
+      "offset": 24304,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "IntegerLiteral",
-      "offset": 24236,
+      "offset": 24376,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "StringLiteral",
-      "offset": 24308,
+      "offset": 24448,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 24381,
+      "offset": 24521,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 24457,
+      "offset": 24597,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 24533,
+      "offset": 24673,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "IntegerLiteral",
-      "offset": 24609,
+      "offset": 24749,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 24681,
+      "offset": 24821,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "IntegerLiteral",
-      "offset": 24757,
+      "offset": 24897,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 24829,
+      "offset": 24969,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "IntegerLiteral",
-      "offset": 24905,
+      "offset": 25045,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "IntegerLiteral",
-      "offset": 24977,
+      "offset": 25117,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 25049,
+      "offset": 25189,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "IntegerLiteral",
-      "offset": 25125,
+      "offset": 25265,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "StringLiteral",
-      "offset": 25197,
+      "offset": 25337,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "StringLiteral",
-      "offset": 25270,
+      "offset": 25410,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "StringLiteral",
-      "offset": 25343,
+      "offset": 25483,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "StringLiteral",
-      "offset": 25416,
+      "offset": 25556,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "StringLiteral",
-      "offset": 25489,
+      "offset": 25629,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 25562,
+      "offset": 25702,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "StringLiteral",
-      "offset": 25638,
+      "offset": 25778,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 25711,
+      "offset": 25851,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "Array",
-      "offset": 25787,
+      "offset": 25927,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "Array",
-      "offset": 25860,
+      "offset": 26000,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "Array",
-      "offset": 25933,
+      "offset": 26073,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 26006,
+      "offset": 26146,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 26200,
+      "offset": 26340,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "StringLiteral",
-      "offset": 26345,
+      "offset": 26485,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 26430,
+      "offset": 26570,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 26515,
+      "offset": 26655,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 26591,
+      "offset": 26731,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 26667,
+      "offset": 26807,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 26743,
+      "offset": 26883,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 26819,
+      "offset": 26959,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 26895,
+      "offset": 27035,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 26979,
+      "offset": 27119,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 27063,
+      "offset": 27203,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 27147,
+      "offset": 27287,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 27283,
+      "offset": 27423,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "Array",
-      "offset": 27359,
+      "offset": 27499,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "Array",
-      "offset": 27432,
+      "offset": 27572,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "Array",
-      "offset": 27505,
+      "offset": 27645,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "Array",
-      "offset": 27578,
+      "offset": 27718,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 27651,
+      "offset": 27791,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "BooleanLiteral",
-      "offset": 27727,
+      "offset": 27867,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "Array",
-      "offset": 28059,
+      "offset": 28199,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "Array",
-      "offset": 28133,
+      "offset": 28273,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/scalecloud-ios\/scalecloud-ios\/ScaleCloudKit\/Sources\/ScaleCloudKit\/ScaleCloudKit+Capabilities.swift",
       "kind": "Array",
-      "offset": 28207,
+      "offset": 28347,
       "length": 2,
       "value": "[]"
     },

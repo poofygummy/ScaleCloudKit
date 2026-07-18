@@ -616,6 +616,7 @@ public enum SCKLogTagEmoji : Swift.String {
   public static func setCandidate(whitelist: [Swift.String])
   public static func createLogsFolder()
   final public func currentLogFileURL() -> Foundation.URL
+  final public var suppressCapabilitiesJson: Swift.Bool
   final public var logLevel: ScaleCloudKit.SCKLogLevel
   final public func writeLog(debug message: Swift.String, minimumLogLevel: ScaleCloudKit.SCKLogLevel = .compact, consoleOnly: Swift.Bool = false)
   final public func writeLog(info message: Swift.String, minimumLogLevel: ScaleCloudKit.SCKLogLevel = .compact, consoleOnly: Swift.Bool = false)
