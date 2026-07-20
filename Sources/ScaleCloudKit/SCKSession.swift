@@ -48,6 +48,44 @@ public struct SCKSession: @unchecked Sendable {
     public static func applyProxySettings() -> [AnyHashable: Any]? {
         lock.lock()
         defer { lock.unlock() }
+        // Suppress the proxy (and therefore tsnet node creation) for any
+        // pre-setup or mid-install launch:
+        //   - --scalecloud-reset / --scalecloud-payload= : iloader injection phases
+        //   - DVT warmup (cert-trust probe): no args, but executable mod time
+        //     doesn't match the stored value yet because setup hasn't completed
+        //
+        // The mod-time check mirrors detectFreshInstall() in SceneDelegate:
+        // lastKnownExecutableModTime is only written on setup completion, so it
+        // is nil or stale on every install/reinstall until the user finishes
+        // setup — covering the DVT warmup and all other pre-setup launches.
+        let args = CommandLine.arguments
+        let isInjectionLaunch = args.contains("--scalecloud-reset") ||
+                                args.contains(where: { $0.hasPrefix("--scalecloud-payload=") })
+        let currentModTime = (try? FileManager.default
+            .attributesOfItem(atPath: Bundle.main.executablePath ?? ""))?[.modificationDate] as? Date
+        let storedModTime = UserDefaults.standard
+            .object(forKey: "com.scalecloud.lastKnownExecutableModTime") as? Date
+        let isFreshInstall = (currentModTime != storedModTime)
+        if isInjectionLaunch || isFreshInstall {
+            return nil
+        }
+        // Health-check: if Swift thinks the proxy is up (proxyPort > 0) but the
+        // Go-side tsnet node has silently died, reset so we restart below.
+        // We read the cached state via GetLogs() — cheap, no network I/O.
+        // States that mean "alive but not yet ready" (NodeStarting, NeedsRetag,
+        // NeedsAuth, NodeReady) are left alone; only hard-dead states trigger a
+        // restart.
+        if proxyPort > 0 {
+            let logs = ScaleCloudGoGetLogs()
+            let stateLine = logs.components(separatedBy: "\n").first ?? ""
+            let nodeState = stateLine.hasPrefix("STATE:") ? String(stateLine.dropFirst(6)) : stateLine
+            if nodeState == "OtherError" || nodeState == "Unknown" {
+                nkLog(error: "ScaleCloud: tsnet node is dead (state=\(nodeState)), restarting proxy")
+                var stopError: NSError?
+                ScaleCloudGoStopProxy(&stopError)
+                proxyPort = 0
+            }
+        }
         if proxyPort == 0 {
             // Match Android exactly: <app files dir>/tailscale
             let baseURL = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask).first!
