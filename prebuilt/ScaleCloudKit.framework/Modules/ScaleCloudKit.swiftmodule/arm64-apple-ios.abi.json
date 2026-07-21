@@ -61760,6 +61760,66 @@
           },
           {
             "kind": "Function",
+            "name": "writeLogError",
+            "printedName": "writeLogError(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ScaleCloudKit@objc(cs)SCKClient(cm)writeLogError:",
+            "mangledName": "$s13ScaleCloudKit9SCKClientC13writeLogErroryySSFZ",
+            "moduleName": "ScaleCloudKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "writeLogDebug",
+            "printedName": "writeLogDebug(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ScaleCloudKit@objc(cs)SCKClient(cm)writeLogDebug:",
+            "mangledName": "$s13ScaleCloudKit9SCKClientC13writeLogDebugyySSFZ",
+            "moduleName": "ScaleCloudKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "isNetworkReachable",
             "printedName": "isNetworkReachable()",
             "children": [

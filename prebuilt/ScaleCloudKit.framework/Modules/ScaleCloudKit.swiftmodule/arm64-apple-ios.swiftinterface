@@ -1521,6 +1521,8 @@ extension ScaleCloudKit.SCKClient {
   public func deleteCookieStorageForAccount(_ account: Swift.String)
   @objc public static func applyProxySettings() -> [Swift.AnyHashable : Any]?
   @objc public static func registerSession(_ session: Foundation.URLSession)
+  @objc public static func writeLogError(_ message: Swift.String)
+  @objc public static func writeLogDebug(_ message: Swift.String)
   public func isNetworkReachable() -> Swift.Bool
 }
 @objc final public class SCKBackground : ObjectiveC.NSObject, Foundation.URLSessionTaskDelegate, Foundation.URLSessionDelegate, Foundation.URLSessionDownloadDelegate {

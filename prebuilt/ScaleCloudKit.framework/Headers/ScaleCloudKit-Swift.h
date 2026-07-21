@@ -417,6 +417,7 @@ SWIFT_CLASS("_TtC13ScaleCloudKit13SCKBackground")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+@class NSString;
 SWIFT_CLASS("_TtC13ScaleCloudKit9SCKClient")
 @interface SCKClient : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -429,6 +430,11 @@ SWIFT_CLASS("_TtC13ScaleCloudKit9SCKClient")
 /// is kept alive as long as at least one live session exists.
 /// Forwards to <code>SCKSession.registerSession(_:)</code>.
 + (void)registerSession:(NSURLSession * _Nonnull)session;
+/// ObjC-callable bridge into <code>SCKLogFileManager</code> for error-level messages.
+/// Use from ObjC code (e.g. ALTAppleAPI.m) that cannot call <code>nkLog</code> directly.
++ (void)writeLogError:(NSString * _Nonnull)message;
+/// ObjC-callable bridge into <code>SCKLogFileManager</code> for debug-level messages.
++ (void)writeLogDebug:(NSString * _Nonnull)message;
 @end
 
 SWIFT_CLASS("_TtC13ScaleCloudKit11SCKComments")
