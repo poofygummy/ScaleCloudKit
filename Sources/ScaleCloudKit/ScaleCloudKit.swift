@@ -175,6 +175,17 @@ open class SCKClient: NSObject, @unchecked Sendable {
         SCKSession.registerSession(session)
     }
 
+    /// ObjC-callable bridge into `SCKLogFileManager` for error-level messages.
+    /// Use from ObjC code (e.g. ALTAppleAPI.m) that cannot call `nkLog` directly.
+    @objc public static func writeLogError(_ message: String) {
+        SCKLogFileManager.shared.writeLog(error: message)
+    }
+
+    /// ObjC-callable bridge into `SCKLogFileManager` for debug-level messages.
+    @objc public static func writeLogDebug(_ message: String) {
+        SCKLogFileManager.shared.writeLog(debug: message)
+    }
+
     // MARK: - Reachability
 
 #if !os(watchOS)
