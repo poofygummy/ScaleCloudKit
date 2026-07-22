@@ -70,16 +70,15 @@ public struct SCKSession: @unchecked Sendable {
             return nil
         }
         // Health-check: if Swift thinks the proxy is up (proxyPort > 0) but the
-        // Go-side tsnet node has silently died, reset so we restart below.
-        // We read the cached state via GetLogs() — cheap, no network I/O.
-        // States that mean "alive but not yet ready" (NodeStarting, NeedsRetag,
-        // NeedsAuth, NodeReady) are left alone; only hard-dead states trigger a
-        // restart.
+        // Go-side tsnet node has hard-failed, reset so we restart below.
+        // "Unknown" means no request has gone through yet (lazy tsnet start) —
+        // that is normal right after StartProxy and must NOT trigger a restart.
+        // Only "OtherError" means the node has actually died.
         if proxyPort > 0 {
             let logs = ScaleCloudGoGetLogs()
             let stateLine = logs.components(separatedBy: "\n").first ?? ""
             let nodeState = stateLine.hasPrefix("STATE:") ? String(stateLine.dropFirst(6)) : stateLine
-            if nodeState == "OtherError" || nodeState == "Unknown" {
+            if nodeState == "OtherError" {
                 nkLog(error: "ScaleCloud: tsnet node is dead (state=\(nodeState)), restarting proxy")
                 var stopError: NSError?
                 ScaleCloudGoStopProxy(&stopError)
